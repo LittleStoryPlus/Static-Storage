@@ -15,7 +15,7 @@ jobs:
 
       - name: Replace urls
         run: |
-          sed -i -E 's|https://raw.githubusercontent.com/Wynntils/Static-Storage/[0-9a-z]+|https://gitea.com/wuki/Static-Storage/raw/branch/master|g' urls.json maps/maps.json
+          sed -i -E 's|https://raw.githubusercontent.com/Wynntils/Static-Storage/[0-9a-z]+|https://gitea.com/wuki/Static-Storage/raw/branch/master|g' Data-Storage/urls.json Reference/maps.json
 
       - name: Git
         run: |
