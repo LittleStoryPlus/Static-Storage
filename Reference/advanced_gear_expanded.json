@@ -253,6 +253,11 @@
         "min": 6,
         "raw": 20
       },
+      "healingEfficiency": {
+        "max": 130,
+        "min": 30,
+        "raw": 100
+      },
       "manaRegen": {
         "max": 21,
         "min": 5,
@@ -277,11 +282,6 @@
         "max": 59,
         "min": 14,
         "raw": 45
-      },
-      "waterDamage": {
-        "max": 260,
-        "min": 60,
-        "raw": 200
       }
     },
     "internalName": "Absolution",
@@ -2340,12 +2340,83 @@
     "tier": "unique",
     "type": "chestplate"
   },
+  "Air In A Can": {
+    "attackSpeed": "super_fast",
+    "base": {
+      "airDamage": {
+        "max": 220,
+        "min": 100
+      },
+      "averageDPS": 688
+    },
+    "dropMeta": {
+      "coordinates": [
+        99999,
+        99999,
+        99999
+      ],
+      "name": "Lootrun Rewards",
+      "type": "lootrun"
+    },
+    "dropRestriction": "never",
+    "identifications": {
+      "1stSpellCost": {
+        "max": -25,
+        "min": -6,
+        "raw": -19
+      },
+      "2ndSpellCost": {
+        "max": -65,
+        "min": -15,
+        "raw": -50
+      },
+      "jumpHeight": {
+        "max": 5,
+        "min": 1,
+        "raw": 4
+      },
+      "sprint": {
+        "max": 78,
+        "min": 18,
+        "raw": 60
+      },
+      "stealing": {
+        "max": 7,
+        "min": 2,
+        "raw": 5
+      }
+    },
+    "internalName": "Air In A Can",
+    "lore": "Contents under pressure.",
+    "majorIds": {
+      "description": "&b+Freerunner: &3When your sprint bar is under 30% full, increase your sprint speed by +150%",
+      "name": "Freerunner"
+    },
+    "material": "261:13",
+    "powderSlots": 3,
+    "requirements": {
+      "agility": 75,
+      "level": 97
+    },
+    "tier": "fabled",
+    "type": "bow"
+  },
   "Air Relic Boots": {
     "armorColor": "51,153,255",
     "armorType": "leather",
     "base": {
       "airDefence": 5,
       "health": 145
+    },
+    "dropMeta": {
+      "coordinates": [
+        707,
+        75,
+        -1819,
+        80
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -2383,6 +2454,16 @@
         "max": 70,
         "min": 45
       }
+    },
+    "dropMeta": {
+      "coordinates": [
+        -170,
+        76,
+        -694,
+        80
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -2434,6 +2515,16 @@
     "base": {
       "airDefence": 15,
       "health": 275
+    },
+    "dropMeta": {
+      "coordinates": [
+        1091,
+        116,
+        -1476,
+        100
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -2529,6 +2620,16 @@
         "min": 35
       }
     },
+    "dropMeta": {
+      "coordinates": [
+        -862,
+        22,
+        -310,
+        120
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
+    },
     "dropRestriction": "never",
     "identifications": {
       "airDamage": {
@@ -2580,6 +2681,16 @@
       "airDefence": 10,
       "health": 205
     },
+    "dropMeta": {
+      "coordinates": [
+        1328,
+        80,
+        -2084,
+        120
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
+    },
     "dropRestriction": "normal",
     "identifications": {
       "airDamage": {
@@ -2610,6 +2721,16 @@
     "base": {
       "airDefence": 20,
       "health": 355
+    },
+    "dropMeta": {
+      "coordinates": [
+        -103,
+        80,
+        -869,
+        100
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -2647,6 +2768,16 @@
         "max": 65,
         "min": 25
       }
+    },
+    "dropMeta": {
+      "coordinates": [
+        -289,
+        23,
+        -471,
+        100
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -2705,6 +2836,16 @@
         "min": 40
       }
     },
+    "dropMeta": {
+      "coordinates": [
+        -805,
+        23,
+        -497,
+        120
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
+    },
     "dropRestriction": "never",
     "identifications": {
       "airDamage": {
@@ -2761,6 +2902,16 @@
         "max": 35,
         "min": 20
       }
+    },
+    "dropMeta": {
+      "coordinates": [
+        -654,
+        88,
+        -738,
+        80
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -3276,6 +3427,11 @@
     },
     "dropRestriction": "normal",
     "identifications": {
+      "healingEfficiency": {
+        "max": 13,
+        "min": 3,
+        "raw": 10
+      },
       "lifeSteal": {
         "max": -105,
         "min": -195,
@@ -3287,31 +3443,16 @@
         "raw": 6
       },
       "raw1stSpellCost": {
-        "max": -8,
-        "min": -2,
-        "raw": -6
+        "max": -16,
+        "min": -4,
+        "raw": -12
       },
       "rawAgility": 7,
       "rawIntelligence": 7,
-      "rawSpellDamage": {
-        "max": -70,
-        "min": -130,
-        "raw": -100
-      },
       "reflection": {
         "max": 20,
         "min": 5,
         "raw": 15
-      },
-      "soulPointRegen": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
-      },
-      "spellDamage": {
-        "max": -21,
-        "min": -39,
-        "raw": -30
       },
       "walkSpeed": {
         "max": 20,
@@ -5256,6 +5397,11 @@
         "min": 3,
         "raw": 10
       },
+      "healingEfficiency": {
+        "max": -6,
+        "min": -12,
+        "raw": -9
+      },
       "healthRegen": {
         "max": -10,
         "min": -19,
@@ -5280,11 +5426,6 @@
         "max": 52,
         "min": 12,
         "raw": 40
-      },
-      "waterDamage": {
-        "max": -10,
-        "min": -19,
-        "raw": -15
       }
     },
     "internalName": "Aneurysm",
@@ -5748,7 +5889,7 @@
     },
     "internalName": "Anti-Causality",
     "majorIds": {
-      "description": "&b+Reckless Abandon: &3Tempest deals &c✹ &3+15% and gains one additional charge. War Scream no longer grants a defence bonus.",
+      "description": "&b+Reckless Abandon: &3Sacrifice War Scream's defense bonus to give Tempest two extra hits, extra damage, and extra speed",
       "name": "Reckless Abandon"
     },
     "powderSlots": 3,
@@ -6332,27 +6473,32 @@
   "Apocalypse": {
     "attackSpeed": "super_slow",
     "base": {
-      "averageDPS": 467,
+      "averageDPS": 536,
       "damage": {
-        "max": 680,
-        "min": 420
+        "max": 525,
+        "min": 315
       },
       "fireDamage": {
-        "max": 475,
-        "min": 255
+        "max": 820,
+        "min": 440
       }
     },
     "dropRestriction": "normal",
     "identifications": {
+      "3rdSpellCost": {
+        "max": 14,
+        "min": 26,
+        "raw": 20
+      },
       "exploding": {
-        "max": 195,
-        "min": 45,
-        "raw": 150
+        "max": 801,
+        "min": 185,
+        "raw": 616
       },
       "fireDefence": {
-        "max": 26,
-        "min": 6,
-        "raw": 20
+        "max": 325,
+        "min": 75,
+        "raw": 250
       },
       "healthRegen": {
         "max": -87,
@@ -6360,30 +6506,28 @@
         "raw": -125
       },
       "lifeSteal": {
-        "max": 866,
-        "min": 200,
-        "raw": 666
+        "max": 1200,
+        "min": 277,
+        "raw": 923
       },
       "rawDefence": 35,
-      "rawIntelligence": -20,
-      "soulPointRegen": {
-        "max": -14,
-        "min": -26,
-        "raw": -20
-      },
       "waterDamage": {
         "max": -35,
         "min": -65,
         "raw": -50
       },
       "waterDefence": {
-        "max": -35,
-        "min": -65,
-        "raw": -50
+        "max": -49,
+        "min": -91,
+        "raw": -70
       }
     },
     "internalName": "Apocalypse",
-    "lore": "Forged from the tooth of the fallen one, this spear was bargained to a human for his soul, not knowing that the weapon itself would claim all life.",
+    "lore": "To forge a weapon such as this from the cursed lava of the portal basin requires dozens, for each smith would lose themselves to the force of corruption before it is finished. The nightmarishly hooked blade serves no purpose but destruction, as intended.",
+    "majorIds": {
+      "description": "&b+Hellfire: &3Boiling Blood has no cooldown, is stronger, and does not slow. Cuts Bash's power and disables Discombobulate",
+      "name": "Hellfire"
+    },
     "material": "256:10",
     "powderSlots": 3,
     "requirements": {
@@ -6860,6 +7004,11 @@
         "min": 12,
         "raw": 40
       },
+      "healingEfficiency": {
+        "max": -7,
+        "min": -13,
+        "raw": -10
+      },
       "mainAttackDamage": {
         "max": -21,
         "min": -39,
@@ -6870,11 +7019,6 @@
         "max": 260,
         "min": 60,
         "raw": 200
-      },
-      "waterDamage": {
-        "max": -14,
-        "min": -26,
-        "raw": -20
       }
     },
     "internalName": "Arbalest",
@@ -7868,6 +8012,11 @@
     },
     "dropRestriction": "normal",
     "identifications": {
+      "healingEfficiency": {
+        "max": 33,
+        "min": 8,
+        "raw": 25
+      },
       "healthRegenRaw": {
         "max": 104,
         "min": 24,
@@ -7887,11 +8036,6 @@
         "max": -7,
         "min": -13,
         "raw": -10
-      },
-      "waterDamage": {
-        "max": 65,
-        "min": 15,
-        "raw": 50
       }
     },
     "internalName": "Ashes Anew",
@@ -10141,15 +10285,20 @@
         "min": 9,
         "raw": 30
       },
+      "healingEfficiency": {
+        "max": -10,
+        "min": -19,
+        "raw": -15
+      },
       "healthRegenRaw": {
         "max": -84,
         "min": -156,
         "raw": -120
       },
       "lifeSteal": {
-        "max": 182,
-        "min": 42,
-        "raw": 140
+        "max": 215,
+        "min": 50,
+        "raw": 165
       },
       "poison": {
         "max": 2678,
@@ -10165,11 +10314,6 @@
         "max": 59,
         "min": 14,
         "raw": 45
-      },
-      "waterDamage": {
-        "max": -21,
-        "min": -39,
-        "raw": -30
       }
     },
     "internalName": "Bakteri",
@@ -10951,6 +11095,11 @@
         "min": 6,
         "raw": 19
       },
+      "healingEfficiency": {
+        "max": 10,
+        "min": 2,
+        "raw": 8
+      },
       "mainAttackDamage": {
         "max": -8,
         "min": -14,
@@ -11336,16 +11485,21 @@
   "Battle Bishop": {
     "armorType": "chain",
     "base": {
-      "health": 430,
+      "health": 475,
       "thunderDefence": -30,
       "waterDefence": 60
     },
     "dropRestriction": "normal",
     "identifications": {
-      "mainAttackDamage": {
-        "max": 7,
+      "healingEfficiency": {
+        "max": 10,
         "min": 2,
-        "raw": 5
+        "raw": 8
+      },
+      "mainAttackDamage": {
+        "max": 9,
+        "min": 2,
+        "raw": 7
       },
       "rawIntelligence": 4,
       "rawSpellDamage": {
@@ -11358,11 +11512,6 @@
         "max": 13,
         "min": 3,
         "raw": 10
-      },
-      "waterDamage": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
       }
     },
     "internalName": "Battle Bishop",
@@ -11494,41 +11643,41 @@
   "Beachside Conch": {
     "attackSpeed": "slow",
     "base": {
-      "averageDPS": 68,
+      "averageDPS": 81,
       "damage": {
-        "max": 48,
-        "min": 42
+        "max": 57,
+        "min": 51
       }
     },
     "dropRestriction": "normal",
     "identifications": {
-      "mainAttackDamage": {
-        "max": -8,
-        "min": -16,
-        "raw": -12
+      "healingEfficiency": {
+        "max": 13,
+        "min": 3,
+        "raw": 10
       },
-      "spellDamage": {
-        "max": -6,
-        "min": -10,
-        "raw": -8
+      "healthRegenRaw": {
+        "max": 9,
+        "min": 2,
+        "raw": 7
       },
       "waterDamage": {
-        "max": 16,
-        "min": 4,
-        "raw": 12
-      },
-      "waterDefence": {
         "max": 10,
         "min": 2,
         "raw": 8
+      },
+      "waterDefence": {
+        "max": 16,
+        "min": 4,
+        "raw": 12
       }
     },
     "internalName": "Beachside Conch",
     "material": "273:21",
-    "powderSlots": 1,
+    "powderSlots": 2,
     "requirements": {
       "intelligence": 8,
-      "level": 19
+      "level": 25
     },
     "tier": "set",
     "type": "relik"
@@ -11537,7 +11686,7 @@
     "armorColor": "232,212,139",
     "armorType": "leather",
     "base": {
-      "health": 75,
+      "health": 130,
       "waterDefence": 6
     },
     "dropRestriction": "normal",
@@ -11549,16 +11698,16 @@
       },
       "rawIntelligence": 3,
       "waterDefence": {
-        "max": 10,
-        "min": 2,
-        "raw": 8
+        "max": 13,
+        "min": 3,
+        "raw": 10
       }
     },
     "internalName": "Beachside Headwrap",
     "powderSlots": 2,
     "requirements": {
       "intelligence": 5,
-      "level": 17
+      "level": 23
     },
     "tier": "set",
     "type": "helmet"
@@ -12474,21 +12623,21 @@
     },
     "dropRestriction": "normal",
     "identifications": {
+      "healingEfficiency": {
+        "max": 33,
+        "min": 8,
+        "raw": 25
+      },
       "mainAttackDamage": {
-        "max": -17,
-        "min": -32,
-        "raw": -25
+        "max": -7,
+        "min": -13,
+        "raw": -10
       },
       "rawIntelligence": 5,
       "spellDamage": {
-        "max": -17,
-        "min": -32,
-        "raw": -25
-      },
-      "waterDamage": {
-        "max": 46,
-        "min": 11,
-        "raw": 35
+        "max": -7,
+        "min": -13,
+        "raw": -10
       }
     },
     "internalName": "Bishop",
@@ -13016,19 +13165,19 @@
     "armorColor": "160,101,64",
     "armorType": "leather",
     "base": {
-      "health": 100
+      "health": 210
     },
     "dropRestriction": "never",
     "identifications": {
-      "lifeSteal": 8,
-      "lootBonus": 10,
-      "stealing": 2,
-      "thunderDamage": 10
+      "lifeSteal": 18,
+      "lootBonus": 12,
+      "stealing": 3,
+      "thunderDamage": 14
     },
     "identified": true,
     "internalName": "Black Mask",
     "requirements": {
-      "level": 18,
+      "level": 29,
       "quest": "Creeper Infiltration"
     },
     "tier": "rare",
@@ -13367,6 +13516,11 @@
     },
     "dropRestriction": "normal",
     "identifications": {
+      "healingEfficiency": {
+        "max": -3,
+        "min": -6,
+        "raw": -5
+      },
       "manaSteal": {
         "max": 5,
         "min": 1,
@@ -13392,11 +13546,6 @@
         "max": 16,
         "min": 4,
         "raw": 12
-      },
-      "waterDamage": {
-        "max": -7,
-        "min": -13,
-        "raw": -10
       }
     },
     "internalName": "Blackened Boots",
@@ -14710,10 +14859,10 @@
   "Blossom Haze": {
     "attackSpeed": "fast",
     "base": {
-      "averageDPS": 575,
+      "averageDPS": 638,
       "damage": {
-        "max": 75,
-        "min": 55
+        "max": 100,
+        "min": 80
       },
       "earthDamage": {
         "max": 185,
@@ -14732,15 +14881,10 @@
         "min": 8,
         "raw": 25
       },
-      "exploding": {
-        "max": 29,
-        "min": 7,
-        "raw": 22
-      },
       "manaSteal": {
-        "max": 5,
-        "min": 1,
-        "raw": 4
+        "max": 10,
+        "min": 2,
+        "raw": 8
       },
       "raw4thSpellCost": {
         "max": -6,
@@ -14752,21 +14896,16 @@
         "min": -1,
         "raw": -1
       },
-      "walkSpeed": {
-        "max": -14,
-        "min": -26,
-        "raw": -20
-      },
       "waterDefence": {
-        "max": 34,
-        "min": 8,
-        "raw": 26
+        "max": 39,
+        "min": 9,
+        "raw": 30
       }
     },
     "internalName": "Blossom Haze",
     "lore": "And as the spring bursts, the blossom petals flutter in the wind amongst the ashes of your enemies.",
     "majorIds": {
-      "description": "&b+Cherry Bombs: &3Your Smoke Bombs explodes instantly, and increase their Neutral Damage by +90%",
+      "description": "&b+Cherry Bombs: &3Turn Smoke Bomb into three firecrackers that fly farther, tighter, and deal high damage instantly",
       "name": "Cherry Bombs"
     },
     "material": "359:4",
@@ -14935,20 +15074,20 @@
     },
     "dropRestriction": "normal",
     "identifications": {
+      "healingEfficiency": {
+        "max": 8,
+        "min": 2,
+        "raw": 6
+      },
       "manaSteal": {
         "max": 5,
         "min": 1,
         "raw": 4
       },
       "reflection": {
-        "max": 8,
-        "min": 2,
-        "raw": 6
-      },
-      "waterDamage": {
-        "max": 7,
-        "min": 2,
-        "raw": 5
+        "max": 13,
+        "min": 3,
+        "raw": 10
       },
       "xpBonus": {
         "max": 21,
@@ -16194,6 +16333,11 @@
         "max": -10,
         "min": -19,
         "raw": -15
+      },
+      "healingEfficiency": {
+        "max": 13,
+        "min": 3,
+        "raw": 10
       },
       "lootBonus": {
         "max": 21,
@@ -18886,20 +19030,21 @@
     "armorColor": "160,101,64",
     "armorType": "leather",
     "base": {
+      "airDefence": 5,
       "earthDefence": 10,
-      "fireDefence": -10,
-      "health": 55
+      "fireDefence": -8,
+      "health": 125
     },
     "dropRestriction": "never",
     "identifications": {
       "rawStrength": 4,
-      "thorns": 8,
-      "walkSpeed": 8
+      "thorns": 20,
+      "walkSpeed": 12
     },
     "identified": true,
     "internalName": "Bush Mask",
     "requirements": {
-      "level": 16,
+      "level": 27,
       "quest": "Creeper Infiltration"
     },
     "skin": "3795edeeb6b7ed41c268cefeafbe960b7c49550daeb631b56156bf5feb9847",
@@ -21280,19 +21425,23 @@
   "Cataclysm": {
     "attackSpeed": "super_fast",
     "base": {
-      "averageDPS": 1054,
+      "averageDPS": 903,
       "damage": {
-        "max": 120,
-        "min": 30
+        "max": 110,
+        "min": 25
       },
       "thunderDamage": {
-        "max": 295,
-        "min": 45
+        "max": 245,
+        "min": 40
       }
     },
     "dropRestriction": "normal",
     "identifications": {
-      "raw1stSpellCost": -1,
+      "raw1stSpellCost": {
+        "max": -5,
+        "min": -1,
+        "raw": -4
+      },
       "rawDexterity": 20,
       "rawHealth": {
         "max": -4200,
@@ -22162,22 +22311,22 @@
         "min": 4,
         "raw": 12
       },
+      "healingEfficiency": {
+        "max": 26,
+        "min": 6,
+        "raw": 20
+      },
       "rawAgility": 8,
       "rawIntelligence": -12,
       "spellDamage": {
-        "max": -28,
-        "min": -52,
-        "raw": -40
+        "max": -7,
+        "min": -13,
+        "raw": -10
       },
       "walkSpeed": {
         "max": 20,
         "min": 5,
         "raw": 15
-      },
-      "waterDamage": {
-        "max": 52,
-        "min": 12,
-        "raw": 40
       }
     },
     "internalName": "Ceramic Shell Greaves",
@@ -25403,6 +25552,11 @@
         "min": 6,
         "raw": 20
       },
+      "healingEfficiency": {
+        "max": 10,
+        "min": 2,
+        "raw": 8
+      },
       "manaRegen": {
         "max": 8,
         "min": 2,
@@ -25423,11 +25577,6 @@
         "max": -7,
         "min": -13,
         "raw": -10
-      },
-      "waterDamage": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
       }
     },
     "internalName": "Cleansing Flame",
@@ -25613,10 +25762,15 @@
     },
     "dropRestriction": "normal",
     "identifications": {
+      "healingEfficiency": {
+        "max": 30,
+        "min": 7,
+        "raw": 23
+      },
       "mainAttackDamage": {
-        "max": -42,
-        "min": -78,
-        "raw": -60
+        "max": -14,
+        "min": -26,
+        "raw": -20
       },
       "manaRegen": {
         "max": 8,
@@ -25630,9 +25784,9 @@
         "raw": 25
       },
       "spellDamage": {
-        "max": -35,
-        "min": -65,
-        "raw": -50
+        "max": -7,
+        "min": -13,
+        "raw": -10
       },
       "thorns": {
         "max": 33,
@@ -25643,11 +25797,6 @@
         "max": -17,
         "min": -32,
         "raw": -25
-      },
-      "waterDamage": {
-        "max": 52,
-        "min": 12,
-        "raw": 40
       },
       "waterDefence": {
         "max": 33,
@@ -26969,32 +27118,37 @@
   "Cognizance": {
     "armorType": "chain",
     "base": {
-      "health": 360
+      "health": 425
     },
     "dropRestriction": "normal",
     "identifications": {
       "earthDamage": {
-        "max": -5,
-        "min": -9,
-        "raw": -7
+        "max": -10,
+        "min": -19,
+        "raw": -15
       },
       "fireDefence": {
-        "max": -5,
-        "min": -9,
-        "raw": -7
+        "max": -10,
+        "min": -19,
+        "raw": -15
+      },
+      "healingEfficiency": {
+        "max": 20,
+        "min": 5,
+        "raw": 15
       },
       "rawDefence": -4,
-      "rawIntelligence": 10,
+      "rawIntelligence": 12,
       "rawStrength": -4,
       "waterDamage": {
-        "max": 9,
-        "min": 2,
-        "raw": 7
+        "max": 20,
+        "min": 5,
+        "raw": 15
       },
       "waterDefence": {
-        "max": 9,
-        "min": 2,
-        "raw": 7
+        "max": 20,
+        "min": 5,
+        "raw": 15
       }
     },
     "internalName": "Cognizance",
@@ -28182,57 +28336,47 @@
   "Conspirator's Trickpockets": {
     "armorType": "iron",
     "base": {
-      "earthDefence": -80,
-      "fireDefence": -80,
-      "health": 2000
+      "earthDefence": -90,
+      "fireDefence": -90,
+      "health": 2550
     },
     "dropRestriction": "normal",
     "identifications": {
-      "airDamage": {
-        "max": 25,
-        "min": 6,
-        "raw": 19
+      "elementalDefence": {
+        "max": -24,
+        "min": -45,
+        "raw": -35
       },
-      "exploding": {
-        "max": 30,
-        "min": 7,
-        "raw": 23
+      "lifeSteal": {
+        "max": 234,
+        "min": 54,
+        "raw": 180
       },
-      "manaRegen": {
+      "manaSteal": {
         "max": 8,
         "min": 2,
         "raw": 6
       },
-      "raw4thSpellCost": {
-        "max": 4,
-        "min": 7,
-        "raw": 5
-      },
       "rawSpellDamage": {
-        "max": 182,
-        "min": 42,
-        "raw": 140
+        "max": 221,
+        "min": 51,
+        "raw": 170
+      },
+      "sprintRegen": {
+        "max": 33,
+        "min": 8,
+        "raw": 25
       },
       "stealing": {
         "max": 7,
         "min": 2,
         "raw": 5
-      },
-      "thunderDamage": {
-        "max": -41,
-        "min": -75,
-        "raw": -58
-      },
-      "waterDefence": {
-        "max": -14,
-        "min": -26,
-        "raw": -20
       }
     },
     "internalName": "Conspirator's Trickpockets",
     "lore": "No reign lasts forever. Not while your schemes remain unnoticed.",
     "majorIds": {
-      "description": "&b+Cherry Bombs: &3Your Smoke Bombs explodes instantly, and increase their Neutral Damage by +90%",
+      "description": "&b+Cherry Bombs: &3Turn Smoke Bomb into three firecrackers that fly farther, tighter, and deal high damage instantly",
       "name": "Cherry Bombs"
     },
     "requirements": {
@@ -29149,6 +29293,11 @@
         "min": 4,
         "raw": 12
       },
+      "healingEfficiency": {
+        "max": -3,
+        "min": -6,
+        "raw": -5
+      },
       "healthRegen": {
         "max": -6,
         "min": -10,
@@ -29159,11 +29308,6 @@
         "max": 13,
         "min": 3,
         "raw": 10
-      },
-      "waterDamage": {
-        "max": -7,
-        "min": -13,
-        "raw": -10
       },
       "xpBonus": {
         "max": 10,
@@ -30666,17 +30810,17 @@
     "armorColor": "160,101,64",
     "armorType": "leather",
     "base": {
-      "health": 50
+      "health": 120
     },
     "dropRestriction": "never",
     "identifications": {
-      "exploding": 5,
-      "thorns": 5
+      "exploding": 12,
+      "thorns": 10
     },
     "identified": true,
     "internalName": "Creeper Mask",
     "requirements": {
-      "level": 14
+      "level": 25
     },
     "restrictions": "Untradable",
     "tier": "unique",
@@ -32203,11 +32347,16 @@
     },
     "dropRestriction": "normal",
     "identifications": {
+      "healingEfficiency": {
+        "max": 13,
+        "min": 3,
+        "raw": 10
+      },
       "rawAgility": 8,
       "walkSpeed": {
-        "max": 12,
+        "max": 13,
         "min": 3,
-        "raw": 9
+        "raw": 10
       },
       "waterDamage": {
         "max": 13,
@@ -35448,6 +35597,11 @@
         "min": 3,
         "raw": 10
       },
+      "healingEfficiency": {
+        "max": 13,
+        "min": 3,
+        "raw": 10
+      },
       "mainAttackDamage": {
         "max": -28,
         "min": -52,
@@ -35465,9 +35619,9 @@
         "raw": 10
       },
       "waterDamage": {
-        "max": 26,
-        "min": 6,
-        "raw": 20
+        "max": 13,
+        "min": 3,
+        "raw": 10
       }
     },
     "internalName": "Demon Tide",
@@ -36379,28 +36533,23 @@
   "Detlas' Skin": {
     "armorType": "golden",
     "base": {
-      "health": 172,
+      "health": 175,
       "thunderDefence": -15,
       "waterDefence": 20
     },
     "dropRestriction": "normal",
     "identifications": {
-      "airDamage": {
-        "max": 7,
-        "min": 2,
-        "raw": 5
-      },
       "fireDefence": {
-        "max": -3,
-        "min": -6,
-        "raw": -5
+        "max": 20,
+        "min": 5,
+        "raw": 15
+      },
+      "healingEfficiency": {
+        "max": 9,
+        "min": 2,
+        "raw": 7
       },
       "lootBonus": {
-        "max": 7,
-        "min": 2,
-        "raw": 5
-      },
-      "waterDamage": {
         "max": 7,
         "min": 2,
         "raw": 5
@@ -36760,6 +36909,11 @@
         "max": 33,
         "min": 8,
         "raw": 25
+      },
+      "healingEfficiency": {
+        "max": -16,
+        "min": -30,
+        "raw": -23
       },
       "mainAttackDamage": {
         "max": 47,
@@ -39372,6 +39526,11 @@
         "min": 6,
         "raw": 20
       },
+      "healingEfficiency": {
+        "max": -7,
+        "min": -13,
+        "raw": -10
+      },
       "mainAttackDamage": {
         "max": 13,
         "min": 3,
@@ -39387,12 +39546,7 @@
         "min": 1,
         "raw": 4
       },
-      "rawDexterity": 8,
-      "waterDamage": {
-        "max": -14,
-        "min": -26,
-        "raw": -20
-      }
+      "rawDexterity": 8
     },
     "internalName": "Doomsday",
     "material": "269:3",
@@ -40599,20 +40753,20 @@
     },
     "dropRestriction": "normal",
     "identifications": {
-      "airDamage": {
-        "max": -1,
-        "min": -3,
-        "raw": -2
-      },
       "earthDamage": {
-        "max": -3,
-        "min": -6,
-        "raw": -5
+        "max": -6,
+        "min": -10,
+        "raw": -8
       },
       "fireDamage": {
         "max": -6,
         "min": -10,
         "raw": -8
+      },
+      "healingEfficiency": {
+        "max": 20,
+        "min": 5,
+        "raw": 15
       },
       "healthRegen": {
         "max": 26,
@@ -40633,11 +40787,6 @@
         "max": -6,
         "min": -10,
         "raw": -8
-      },
-      "waterDamage": {
-        "max": -1,
-        "min": -3,
-        "raw": -2
       }
     },
     "internalName": "Dreamcloud",
@@ -41583,40 +41732,40 @@
     "armorType": "golden",
     "base": {
       "fireDefence": 10,
-      "health": 125,
+      "health": 150,
       "waterDefence": -7
     },
     "dropRestriction": "normal",
     "identifications": {
       "fireDamage": {
-        "max": -10,
-        "min": -19,
-        "raw": -15
+        "max": 8,
+        "min": 2,
+        "raw": 6
       },
       "fireDefence": {
-        "max": 7,
+        "max": 9,
         "min": 2,
-        "raw": 5
+        "raw": 7
+      },
+      "healingEfficiency": {
+        "max": 10,
+        "min": 2,
+        "raw": 8
       },
       "reflection": {
-        "max": 7,
-        "min": 2,
-        "raw": 5
+        "max": 12,
+        "min": 3,
+        "raw": 9
       },
       "thorns": {
-        "max": 7,
-        "min": 2,
-        "raw": 5
-      },
-      "waterDamage": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
+        "max": 12,
+        "min": 3,
+        "raw": 9
       },
       "waterDefence": {
-        "max": -3,
-        "min": -6,
-        "raw": -5
+        "max": -5,
+        "min": -9,
+        "raw": -7
       }
     },
     "internalName": "DuskHelm",
@@ -41915,6 +42064,11 @@
         "min": 5,
         "raw": 15
       },
+      "healingEfficiency": {
+        "max": 10,
+        "min": 2,
+        "raw": 8
+      },
       "lifeSteal": {
         "max": -152,
         "min": -282,
@@ -42026,6 +42180,11 @@
         "min": 3,
         "raw": 10
       },
+      "healingEfficiency": {
+        "max": -7,
+        "min": -13,
+        "raw": -10
+      },
       "healthRegen": {
         "max": -28,
         "min": -52,
@@ -42040,11 +42199,6 @@
         "max": 13,
         "min": 3,
         "raw": 10
-      },
-      "waterDamage": {
-        "max": -14,
-        "min": -26,
-        "raw": -20
       }
     },
     "internalName": "Dysnomia",
@@ -42161,6 +42315,16 @@
       "earthDefence": 4,
       "health": 150
     },
+    "dropMeta": {
+      "coordinates": [
+        707,
+        75,
+        -1819,
+        80
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
+    },
     "dropRestriction": "normal",
     "identifications": {
       "earthDamage": {
@@ -42197,6 +42361,16 @@
         "max": 200,
         "min": 150
       }
+    },
+    "dropMeta": {
+      "coordinates": [
+        -170,
+        76,
+        -694,
+        80
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -42248,6 +42422,16 @@
     "base": {
       "earthDefence": 12,
       "health": 285
+    },
+    "dropMeta": {
+      "coordinates": [
+        1091,
+        116,
+        -1476,
+        100
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -42337,6 +42521,16 @@
       "earthDefence": 8,
       "health": 212
     },
+    "dropMeta": {
+      "coordinates": [
+        1328,
+        80,
+        -2084,
+        120
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
+    },
     "dropRestriction": "normal",
     "identifications": {
       "earthDamage": {
@@ -42367,6 +42561,16 @@
     "base": {
       "earthDefence": 16,
       "health": 375
+    },
+    "dropMeta": {
+      "coordinates": [
+        -103,
+        80,
+        -869,
+        100
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -42404,6 +42608,16 @@
         "max": 100,
         "min": 55
       }
+    },
+    "dropMeta": {
+      "coordinates": [
+        -289,
+        23,
+        -471,
+        100
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -42462,6 +42676,16 @@
         "min": 140
       }
     },
+    "dropMeta": {
+      "coordinates": [
+        -805,
+        23,
+        -497,
+        120
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
+    },
     "dropRestriction": "never",
     "identifications": {
       "earthDamage": {
@@ -42518,6 +42742,16 @@
         "max": 70,
         "min": 50
       }
+    },
+    "dropMeta": {
+      "coordinates": [
+        -654,
+        88,
+        -738,
+        80
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -43064,12 +43298,12 @@
       "airDefence": 30,
       "fireDamage": 5,
       "fireDefence": 30,
+      "healingEfficiency": 25,
       "healthRegen": 50,
       "healthRegenRaw": 325,
       "manaRegen": 24,
       "rawDexterity": -30,
       "rawStrength": -30,
-      "soulPointRegen": 25,
       "waterDamage": 5,
       "waterDefence": 30
     },
@@ -45007,6 +45241,11 @@
         "min": 5,
         "raw": 15
       },
+      "healingEfficiency": {
+        "max": 16,
+        "min": 4,
+        "raw": 12
+      },
       "healthRegenRaw": {
         "max": 85,
         "min": 20,
@@ -46251,12 +46490,20 @@
         "raw": 825
       },
       "manaSteal": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
+        "max": -4,
+        "min": -8,
+        "raw": -6
       },
-      "raw1stSpellCost": -1,
-      "raw4thSpellCost": -1,
+      "raw1stSpellCost": {
+        "max": -5,
+        "min": -1,
+        "raw": -4
+      },
+      "raw4thSpellCost": {
+        "max": -5,
+        "min": -1,
+        "raw": -4
+      },
       "rawMainAttackDamage": {
         "max": 1000,
         "min": 231,
@@ -46738,6 +46985,11 @@
     },
     "dropRestriction": "normal",
     "identifications": {
+      "healingEfficiency": {
+        "max": 18,
+        "min": 4,
+        "raw": 14
+      },
       "mainAttackDamage": {
         "max": -28,
         "min": -52,
@@ -47449,6 +47701,11 @@
         "min": -99,
         "raw": -76
       },
+      "healingEfficiency": {
+        "max": -13,
+        "min": -23,
+        "raw": -18
+      },
       "rawHealth": {
         "max": 6500,
         "min": 1500,
@@ -47458,11 +47715,6 @@
         "max": -53,
         "min": -99,
         "raw": -76
-      },
-      "waterDamage": {
-        "max": -24,
-        "min": -45,
-        "raw": -35
       },
       "waterDefence": {
         "max": -53,
@@ -48482,7 +48734,11 @@
         "min": -15,
         "raw": -49
       },
-      "manaSteal": 1,
+      "manaSteal": {
+        "max": 8,
+        "min": 2,
+        "raw": 6
+      },
       "rawDexterity": 25,
       "spellDamage": {
         "max": 33,
@@ -48945,14 +49201,19 @@
     "dropRestriction": "normal",
     "identifications": {
       "earthDamage": {
-        "max": 23,
-        "min": 5,
-        "raw": 18
+        "max": 18,
+        "min": 4,
+        "raw": 14
+      },
+      "healingEfficiency": {
+        "max": 13,
+        "min": 3,
+        "raw": 10
       },
       "healthRegen": {
-        "max": 39,
-        "min": 9,
-        "raw": 30
+        "max": 33,
+        "min": 8,
+        "raw": 25
       },
       "manaRegen": {
         "max": 8,
@@ -48970,9 +49231,9 @@
         "raw": 80
       },
       "waterDamage": {
-        "max": 23,
-        "min": 5,
-        "raw": 18
+        "max": 18,
+        "min": 4,
+        "raw": 14
       }
     },
     "internalName": "Fenmask",
@@ -49850,6 +50111,16 @@
       "fireDefence": 5,
       "health": 170
     },
+    "dropMeta": {
+      "coordinates": [
+        707,
+        75,
+        -1819,
+        80
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
+    },
     "dropRestriction": "normal",
     "identifications": {
       "fireDamage": {
@@ -49886,6 +50157,16 @@
         "max": 100,
         "min": 70
       }
+    },
+    "dropMeta": {
+      "coordinates": [
+        -170,
+        76,
+        -694,
+        80
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -49937,6 +50218,16 @@
     "base": {
       "fireDefence": 15,
       "health": 330
+    },
+    "dropMeta": {
+      "coordinates": [
+        1091,
+        116,
+        -1476,
+        100
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -50032,6 +50323,16 @@
         "min": 55
       }
     },
+    "dropMeta": {
+      "coordinates": [
+        -862,
+        22,
+        -310,
+        120
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
+    },
     "dropRestriction": "never",
     "identifications": {
       "fireDamage": {
@@ -50083,6 +50384,16 @@
       "fireDefence": 10,
       "health": 245
     },
+    "dropMeta": {
+      "coordinates": [
+        1328,
+        80,
+        -2084,
+        120
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
+    },
     "dropRestriction": "normal",
     "identifications": {
       "fireDamage": {
@@ -50113,6 +50424,16 @@
     "base": {
       "fireDefence": 20,
       "health": 425
+    },
+    "dropMeta": {
+      "coordinates": [
+        -103,
+        80,
+        -869,
+        100
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -50150,6 +50471,16 @@
         "max": 70,
         "min": 40
       }
+    },
+    "dropMeta": {
+      "coordinates": [
+        -289,
+        23,
+        -471,
+        100
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -50208,6 +50539,16 @@
         "min": 70
       }
     },
+    "dropMeta": {
+      "coordinates": [
+        -805,
+        23,
+        -497,
+        120
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
+    },
     "dropRestriction": "never",
     "identifications": {
       "fireDamage": {
@@ -50264,6 +50605,16 @@
         "max": 40,
         "min": 30
       }
+    },
+    "dropMeta": {
+      "coordinates": [
+        -654,
+        88,
+        -738,
+        80
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -51051,7 +51402,7 @@
     "internalName": "Fissure",
     "lore": "Dwarven folklore tells of this mighty maul, used by gods to break mountains, shape continents, and crack the earth to form caverns.",
     "majorIds": {
-      "description": "&b+Temblor: &3Bash gains +1 Area of Effect and is 20% faster",
+      "description": "&b+Temblor: &3Bash gains +1 Area of Effect and is 25% faster",
       "name": "Temblor"
     },
     "material": "256:3",
@@ -55123,6 +55474,11 @@
     },
     "dropRestriction": "normal",
     "identifications": {
+      "healingEfficiency": {
+        "max": 10,
+        "min": 2,
+        "raw": 8
+      },
       "manaRegen": {
         "max": 8,
         "min": 2,
@@ -55149,11 +55505,6 @@
         "max": -14,
         "min": -26,
         "raw": -20
-      },
-      "waterDamage": {
-        "max": 10,
-        "min": 2,
-        "raw": 8
       },
       "waterDefence": {
         "max": 20,
@@ -55812,9 +56163,9 @@
         "raw": 575
       },
       "rawSpellDamage": {
-        "max": -192,
-        "min": -357,
-        "raw": -275
+        "max": -115,
+        "min": -214,
+        "raw": -165
       },
       "rawStrength": 25,
       "thorns": {
@@ -56548,13 +56899,13 @@
         "min": -19,
         "raw": -15
       },
+      "healingEfficiency": {
+        "max": 9,
+        "min": 2,
+        "raw": 7
+      },
       "rawAgility": 4,
       "walkSpeed": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
-      },
-      "waterDamage": {
         "max": 20,
         "min": 5,
         "raw": 15
@@ -57302,10 +57653,10 @@
     "dropRestriction": "never",
     "identifications": {
       "airDamage": 30,
+      "healingEfficiency": -10,
       "mainAttackDamage": 30,
       "spellDamage": -45,
-      "walkSpeed": 7,
-      "waterDamage": -20
+      "walkSpeed": 7
     },
     "identified": true,
     "internalName": "Gert Wand",
@@ -61253,9 +61604,9 @@
         "raw": 10000
       },
       "raw2ndSpellCost": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
+        "max": 3,
+        "min": 5,
+        "raw": 4
       },
       "raw4thSpellCost": {
         "max": -13,
@@ -61704,7 +62055,11 @@
         "min": 176,
         "raw": 585
       },
-      "manaRegen": 1,
+      "manaRegen": {
+        "max": 12,
+        "min": 3,
+        "raw": 9
+      },
       "rawDefence": 20,
       "rawHealth": {
         "max": 7800,
@@ -61725,7 +62080,7 @@
     "internalName": "Guardian",
     "lore": "A vow of protection hangs over this spear, now inhabited by the spirit of a legendary heroine. Even simply a glimpse of the burning blade will instill a feeling of protection and security, and that feeling will hold true if one is brave enough to wield it.",
     "majorIds": {
-      "description": "&b+Guardian: &320% of damage taken by nearby allies is redirected to you",
+      "description": "&b+Guardian: &335% of damage taken by nearby allies is redirected to you",
       "name": "Guardian"
     },
     "material": "256:10",
@@ -67807,19 +68162,19 @@
     "base": {
       "airDefence": 12,
       "fireDefence": -8,
-      "health": 60
+      "health": 130
     },
     "dropRestriction": "never",
     "identifications": {
       "airDamage": 10,
-      "manaSteal": 4,
-      "rawMainAttackDamage": 20,
+      "manaSteal": 5,
+      "rawMainAttackDamage": 50,
       "reflection": 12
     },
     "identified": true,
     "internalName": "Ice Mask",
     "requirements": {
-      "level": 17,
+      "level": 28,
       "quest": "Creeper Infiltration"
     },
     "skin": "56aab58fa01fce9af469ed747aed811d7ba18c476f5a7f9088e129c31b45f3",
@@ -68017,25 +68372,25 @@
   "Idol": {
     "attackSpeed": "normal",
     "base": {
-      "averageDPS": 577,
+      "averageDPS": 520,
       "waterDamage": {
-        "max": 330,
-        "min": 230
+        "max": 300,
+        "min": 205
       }
     },
     "dropRestriction": "normal",
     "identifications": {
       "manaRegen": {
-        "max": 13,
-        "min": 3,
-        "raw": 10
+        "max": 16,
+        "min": 4,
+        "raw": 12
       },
       "raw2ndSpellCost": {
-        "max": -65,
-        "min": -15,
-        "raw": -50
+        "max": -39,
+        "min": -9,
+        "raw": -30
       },
-      "rawIntelligence": 26,
+      "rawIntelligence": 20,
       "rawSpellDamage": {
         "max": 343,
         "min": 79,
@@ -68472,21 +68827,21 @@
     "attackSpeed": "slow",
     "base": {
       "airDamage": {
-        "max": 330,
-        "min": 310
+        "max": 375,
+        "min": 350
       },
-      "averageDPS": 960,
+      "averageDPS": 1088,
       "fireDamage": {
-        "max": 440,
-        "min": 200
+        "max": 495,
+        "min": 230
       }
     },
     "dropRestriction": "normal",
     "identifications": {
       "3rdSpellCost": {
-        "max": -18,
-        "min": -4,
-        "raw": -14
+        "max": -26,
+        "min": -6,
+        "raw": -20
       },
       "airDamage": {
         "max": 59,
@@ -68498,30 +68853,25 @@
         "min": 14,
         "raw": 45
       },
+      "healingEfficiency": {
+        "max": -350,
+        "min": -650,
+        "raw": -500
+      },
       "healthRegen": {
         "max": -126,
         "min": -234,
         "raw": -180
       },
-      "rawAgility": 50,
-      "rawDefence": 50,
-      "rawHealth": {
-        "max": -1925,
-        "min": -3575,
-        "raw": -2750
-      },
-      "waterDamage": {
-        "max": -700,
-        "min": -1300,
-        "raw": -1000
-      }
+      "rawAgility": 75,
+      "rawDefence": 75
     },
     "internalName": "Immolation",
     "material": "273:17",
     "powderSlots": 3,
     "requirements": {
-      "agility": 80,
-      "defence": 80,
+      "agility": 75,
+      "defence": 75,
       "level": 101
     },
     "tier": "mythic",
@@ -70157,6 +70507,11 @@
         "min": 6,
         "raw": 20
       },
+      "healingEfficiency": {
+        "max": -14,
+        "min": -26,
+        "raw": -20
+      },
       "healthRegenRaw": {
         "max": -140,
         "min": -260,
@@ -70176,11 +70531,6 @@
         "max": 13,
         "min": 3,
         "raw": 10
-      },
-      "waterDamage": {
-        "max": -35,
-        "min": -65,
-        "raw": -50
       },
       "waterDefence": {
         "max": -21,
@@ -70214,6 +70564,11 @@
         "min": -18,
         "raw": -14
       },
+      "healingEfficiency": {
+        "max": -10,
+        "min": -19,
+        "raw": -15
+      },
       "jumpHeight": 1,
       "manaRegen": {
         "max": -4,
@@ -70229,11 +70584,6 @@
         "max": 23,
         "min": 5,
         "raw": 18
-      },
-      "waterDamage": {
-        "max": -21,
-        "min": -39,
-        "raw": -30
       }
     },
     "internalName": "Infernal Impulse",
@@ -70278,11 +70628,15 @@
         "raw": 25
       },
       "manaRegen": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
+        "max": -4,
+        "min": -8,
+        "raw": -6
       },
-      "raw1stSpellCost": -1,
+      "raw1stSpellCost": {
+        "max": -5,
+        "min": -1,
+        "raw": -4
+      },
       "rawDefence": 15,
       "rawHealth": {
         "max": 1950,
@@ -71458,6 +71812,61 @@
     "tier": "unique",
     "type": "helmet"
   },
+  "Iosis": {
+    "armorType": "diamond",
+    "base": {
+      "fireDefence": 165,
+      "health": 3050,
+      "waterDefence": -100
+    },
+    "dropRestriction": "normal",
+    "identifications": {
+      "earthSpellDamage": {
+        "max": 33,
+        "min": 8,
+        "raw": 25
+      },
+      "fireSpellDamage": {
+        "max": 33,
+        "min": 8,
+        "raw": 25
+      },
+      "healthRegenRaw": {
+        "max": -91,
+        "min": -169,
+        "raw": -130
+      },
+      "manaSteal": {
+        "max": 10,
+        "min": 2,
+        "raw": 8
+      },
+      "rawDefence": 8,
+      "thunderSpellDamage": {
+        "max": 33,
+        "min": 8,
+        "raw": 25
+      },
+      "waterDefence": {
+        "max": -24,
+        "min": -45,
+        "raw": -35
+      }
+    },
+    "internalName": "Iosis",
+    "lore": "The last step towards purity. Dissolve and coagulate. Be anew.",
+    "majorIds": {
+      "description": "&b+Temblor: &3Bash gains +1 Area of Effect and is 25% faster",
+      "name": "Temblor"
+    },
+    "powderSlots": 2,
+    "requirements": {
+      "defence": 80,
+      "level": 84
+    },
+    "tier": "fabled",
+    "type": "helmet"
+  },
   "Iris": {
     "attackSpeed": "slow",
     "base": {
@@ -71966,6 +72375,11 @@
         "max": -10,
         "min": -19,
         "raw": -15
+      },
+      "healingEfficiency": {
+        "max": -8,
+        "min": -14,
+        "raw": -11
       },
       "healthRegen": {
         "max": -16,
@@ -72728,31 +73142,25 @@
   "Jewel": {
     "armorType": "iron",
     "base": {
-      "fireDefence": 100,
-      "health": 1645,
-      "waterDefence": -80
+      "fireDefence": 80,
+      "health": 1750
     },
     "dropRestriction": "normal",
     "identifications": {
       "fireDamage": {
-        "max": -14,
-        "min": -26,
-        "raw": -20
+        "max": 16,
+        "min": 4,
+        "raw": 12
       },
-      "reflection": {
-        "max": 7,
-        "min": 2,
-        "raw": 5
-      },
-      "spellDamage": {
-        "max": 9,
-        "min": 2,
-        "raw": 7
-      },
-      "waterDamage": {
+      "healingEfficiency": {
         "max": 13,
         "min": 3,
         "raw": 10
+      },
+      "reflection": {
+        "max": 26,
+        "min": 6,
+        "raw": 20
       },
       "xpBonus": {
         "max": 13,
@@ -72761,7 +73169,7 @@
       }
     },
     "internalName": "Jewel",
-    "powderSlots": 1,
+    "powderSlots": 2,
     "requirements": {
       "level": 76
     },
@@ -73206,6 +73614,7 @@
     },
     "dropRestriction": "never",
     "identifications": {
+      "healingEfficiency": -35,
       "lifeSteal": -1085,
       "lootBonus": 30,
       "mainAttackDamage": 33,
@@ -73213,8 +73622,7 @@
       "rawDexterity": 10,
       "rawSpellDamage": 125,
       "soulPointRegen": -30,
-      "thunderDamage": 20,
-      "waterDamage": -70
+      "thunderDamage": 20
     },
     "identified": true,
     "internalName": "Judas",
@@ -75216,6 +75624,11 @@
     "attackSpeed": "normal",
     "dropRestriction": "normal",
     "identifications": {
+      "healingEfficiency": {
+        "max": 55,
+        "min": 13,
+        "raw": 42
+      },
       "healthRegenRaw": {
         "max": 260,
         "min": 60,
@@ -75250,11 +75663,6 @@
         "max": -17500,
         "min": -32500,
         "raw": -25000
-      },
-      "waterDamage": {
-        "max": 105,
-        "min": 24,
-        "raw": 81
       }
     },
     "internalName": "King of Hearts",
@@ -75333,6 +75741,11 @@
         "max": 40,
         "min": 9,
         "raw": 31
+      },
+      "healingEfficiency": {
+        "max": 20,
+        "min": 5,
+        "raw": 15
       },
       "healthRegen": {
         "max": 20,
@@ -76018,6 +76431,11 @@
         "max": -45,
         "min": -10,
         "raw": -35
+      },
+      "healingEfficiency": {
+        "max": 40,
+        "min": 9,
+        "raw": 31
       },
       "lifeSteal": {
         "max": -350,
@@ -77198,6 +77616,11 @@
     },
     "dropRestriction": "normal",
     "identifications": {
+      "healingEfficiency": {
+        "max": -14,
+        "min": -26,
+        "raw": -20
+      },
       "healthRegen": {
         "max": -14,
         "min": -26,
@@ -77232,11 +77655,6 @@
         "max": 26,
         "min": 6,
         "raw": 20
-      },
-      "waterDamage": {
-        "max": -14,
-        "min": -26,
-        "raw": -20
       }
     },
     "internalName": "Leggings of Desolation",
@@ -79941,6 +80359,11 @@
     },
     "dropRestriction": "normal",
     "identifications": {
+      "healingEfficiency": {
+        "max": 8,
+        "min": 2,
+        "raw": 6
+      },
       "healthRegen": {
         "max": 13,
         "min": 3,
@@ -80459,6 +80882,11 @@
         "min": 6,
         "raw": 20
       },
+      "healingEfficiency": {
+        "max": 26,
+        "min": 6,
+        "raw": 20
+      },
       "lifeSteal": {
         "max": 350,
         "min": 81,
@@ -80483,11 +80911,6 @@
         "max": -17,
         "min": -32,
         "raw": -25
-      },
-      "waterDamage": {
-        "max": 52,
-        "min": 12,
-        "raw": 40
       }
     },
     "internalName": "Luto Aquarum",
@@ -80841,11 +81264,11 @@
     },
     "dropRestriction": "never",
     "identifications": {
+      "healingEfficiency": 8,
       "healthRegen": 12,
       "mainAttackDamage": -20,
       "rawIntelligence": 4,
-      "reflection": 5,
-      "waterDamage": 15
+      "reflection": 5
     },
     "identified": true,
     "internalName": "Mage-Crafted Staff",
@@ -84631,17 +85054,19 @@
     "armorColor": "160,101,64",
     "armorType": "leather",
     "base": {
-      "health": 80
+      "fireDefence": 10,
+      "health": 185
     },
     "dropRestriction": "never",
     "identifications": {
-      "rawDefence": 7
+      "healthRegenRaw": 7,
+      "rawDefence": 8
     },
     "identified": true,
     "internalName": "Metal Mask",
     "powderSlots": 1,
     "requirements": {
-      "level": 16,
+      "level": 27,
       "quest": "Creeper Infiltration"
     },
     "skin": "bba8459145d83ffc44ad58c3260e74ca5a0f634c7eeb59a1ad3234849c933c",
@@ -86648,6 +87073,11 @@
         "min": 4,
         "raw": 12
       },
+      "healingEfficiency": {
+        "max": 16,
+        "min": 4,
+        "raw": 12
+      },
       "manaRegen": {
         "max": 16,
         "min": 4,
@@ -86660,14 +87090,9 @@
         "raw": 12
       },
       "spellDamage": {
-        "max": 10,
-        "min": 2,
-        "raw": 8
-      },
-      "waterDamage": {
-        "max": 10,
-        "min": 2,
-        "raw": 8
+        "max": 16,
+        "min": 4,
+        "raw": 12
       },
       "waterDefence": {
         "max": 16,
@@ -87935,21 +88360,21 @@
     "armorType": "leather",
     "base": {
       "airDefence": -10,
-      "earthDefence": 5,
-      "health": 65,
-      "waterDefence": 5
+      "earthDefence": 8,
+      "health": 150,
+      "waterDefence": 8
     },
     "dropRestriction": "never",
     "identifications": {
-      "mainAttackDamage": 6,
-      "poison": 15,
-      "spellDamage": 6,
+      "mainAttackDamage": 9,
+      "poison": 90,
+      "spellDamage": 9,
       "walkSpeed": -8
     },
     "identified": true,
     "internalName": "Mud Mask",
     "requirements": {
-      "level": 16,
+      "level": 27,
       "quest": "Creeper Infiltration"
     },
     "skin": "1ea6f932b45fdf3b693d9e44bd05bca364eb5b9aff497226fdb52abb2436422",
@@ -88876,6 +89301,11 @@
         "min": 5,
         "raw": 15
       },
+      "healingEfficiency": {
+        "max": -8,
+        "min": -16,
+        "raw": -12
+      },
       "rawDefence": 8,
       "rawDexterity": 8,
       "rawIntelligence": -6,
@@ -88888,11 +89318,6 @@
         "max": 20,
         "min": 5,
         "raw": 15
-      },
-      "waterDamage": {
-        "max": -14,
-        "min": -26,
-        "raw": -20
       },
       "waterDefence": {
         "max": -14,
@@ -92996,6 +93421,11 @@
         "min": 12,
         "raw": 40
       },
+      "healingEfficiency": {
+        "max": -10,
+        "min": -19,
+        "raw": -15
+      },
       "healthRegenRaw": {
         "max": 117,
         "min": 27,
@@ -93021,11 +93451,6 @@
         "max": 72,
         "min": 17,
         "raw": 55
-      },
-      "waterDamage": {
-        "max": -21,
-        "min": -39,
-        "raw": -30
       }
     },
     "internalName": "October Fires",
@@ -93356,6 +93781,11 @@
     },
     "dropRestriction": "never",
     "identifications": {
+      "healingEfficiency": {
+        "max": 33,
+        "min": 8,
+        "raw": 25
+      },
       "healthRegen": {
         "max": 33,
         "min": 8,
@@ -93383,14 +93813,9 @@
         "raw": 25
       },
       "spellDamage": {
-        "max": 33,
-        "min": 8,
-        "raw": 25
-      },
-      "waterDamage": {
-        "max": 59,
-        "min": 14,
-        "raw": 45
+        "max": 65,
+        "min": 15,
+        "raw": 50
       },
       "xpBonus": {
         "max": 13,
@@ -97390,6 +97815,7 @@
       "airDefence": 25,
       "earthDefence": 25,
       "fireDefence": 40,
+      "healingEfficiency": 14,
       "rawAttackSpeed": -30,
       "rawIntelligence": 8,
       "soulPointRegen": 100,
@@ -97656,6 +98082,11 @@
     },
     "dropRestriction": "normal",
     "identifications": {
+      "healingEfficiency": {
+        "max": 7,
+        "min": 2,
+        "raw": 5
+      },
       "waterDamage": {
         "max": 20,
         "min": 5,
@@ -97665,7 +98096,6 @@
     "internalName": "Perfumed Chestplate",
     "powderSlots": 1,
     "requirements": {
-      "intelligence": 2,
       "level": 32
     },
     "tier": "unique",
@@ -98366,6 +98796,11 @@
     },
     "dropRestriction": "normal",
     "identifications": {
+      "healingEfficiency": {
+        "max": 10,
+        "min": 2,
+        "raw": 8
+      },
       "healthRegen": {
         "max": 20,
         "min": 5,
@@ -98391,11 +98826,6 @@
         "max": -7,
         "min": -13,
         "raw": -10
-      },
-      "waterDamage": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
       }
     },
     "internalName": "Philosopher",
@@ -99439,6 +99869,11 @@
     },
     "dropRestriction": "normal",
     "identifications": {
+      "healingEfficiency": {
+        "max": 13,
+        "min": 3,
+        "raw": 10
+      },
       "mainAttackDamage": {
         "max": -8,
         "min": -16,
@@ -99450,11 +99885,6 @@
         "raw": 6
       },
       "rawIntelligence": 7,
-      "soulPointRegen": {
-        "max": 13,
-        "min": 3,
-        "raw": 10
-      },
       "spellDamage": {
         "max": 13,
         "min": 3,
@@ -101271,6 +101701,11 @@
         "min": -13,
         "raw": -10
       },
+      "healingEfficiency": {
+        "max": 10,
+        "min": 2,
+        "raw": 8
+      },
       "mainAttackDamage": {
         "max": -17,
         "min": -32,
@@ -101296,11 +101731,6 @@
         "max": 16,
         "min": 4,
         "raw": 12
-      },
-      "waterDamage": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
       }
     },
     "internalName": "Predposledni",
@@ -102253,9 +102683,6 @@
   },
   "Prowess": {
     "accessoryType": "bracelet",
-    "base": {
-      "health": 425
-    },
     "dropMeta": {
       "coordinates": [
         373,
@@ -105240,6 +105667,11 @@
     },
     "dropRestriction": "normal",
     "identifications": {
+      "healingEfficiency": {
+        "max": -28,
+        "min": -52,
+        "raw": -40
+      },
       "jumpHeight": {
         "max": 3,
         "min": 1,
@@ -105264,11 +105696,6 @@
         "max": 36,
         "min": 8,
         "raw": 28
-      },
-      "waterDamage": {
-        "max": -56,
-        "min": -104,
-        "raw": -80
       }
     },
     "internalName": "Quetzalcoatl",
@@ -108531,6 +108958,16 @@
       "thunderDefence": 4,
       "waterDefence": 4
     },
+    "dropMeta": {
+      "coordinates": [
+        707,
+        75,
+        -1819,
+        80
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
+    },
     "dropRestriction": "normal",
     "identifications": {
       "airDefence": {
@@ -108602,6 +109039,16 @@
         "min": 27
       }
     },
+    "dropMeta": {
+      "coordinates": [
+        -170,
+        76,
+        -694,
+        80
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
+    },
     "dropRestriction": "never",
     "identifications": {
       "lootBonus": {
@@ -108639,6 +109086,16 @@
       "health": 285,
       "thunderDefence": 12,
       "waterDefence": 12
+    },
+    "dropMeta": {
+      "coordinates": [
+        1091,
+        116,
+        -1476,
+        100
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -108711,6 +109168,16 @@
         "min": 24
       }
     },
+    "dropMeta": {
+      "coordinates": [
+        -862,
+        22,
+        -310,
+        120
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
+    },
     "dropRestriction": "never",
     "identifications": {
       "lootBonus": {
@@ -108748,6 +109215,16 @@
       "health": 215,
       "thunderDefence": 8,
       "waterDefence": 8
+    },
+    "dropMeta": {
+      "coordinates": [
+        1328,
+        80,
+        -2084,
+        120
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -108801,6 +109278,16 @@
       "health": 375,
       "thunderDefence": 14,
       "waterDefence": 14
+    },
+    "dropMeta": {
+      "coordinates": [
+        -103,
+        80,
+        -869,
+        100
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -108873,6 +109360,16 @@
         "min": 20
       }
     },
+    "dropMeta": {
+      "coordinates": [
+        -289,
+        23,
+        -471,
+        100
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
+    },
     "dropRestriction": "never",
     "identifications": {
       "lootBonus": {
@@ -108929,6 +109426,16 @@
         "min": 30
       }
     },
+    "dropMeta": {
+      "coordinates": [
+        -805,
+        23,
+        -497,
+        120
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
+    },
     "dropRestriction": "never",
     "identifications": {
       "lootBonus": {
@@ -108984,6 +109491,16 @@
         "max": 17,
         "min": 12
       }
+    },
+    "dropMeta": {
+      "coordinates": [
+        -654,
+        88,
+        -738,
+        80
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -110492,6 +111009,11 @@
     },
     "dropRestriction": "normal",
     "identifications": {
+      "healingEfficiency": {
+        "max": 20,
+        "min": 5,
+        "raw": 15
+      },
       "healthRegenRaw": {
         "max": -462,
         "min": -858,
@@ -110507,11 +111029,6 @@
         "max": 2340,
         "min": 540,
         "raw": 1800
-      },
-      "waterDamage": {
-        "max": 33,
-        "min": 8,
-        "raw": 25
       }
     },
     "internalName": "Rhythm of the Seasons",
@@ -111546,20 +112063,19 @@
     "armorColor": "160,101,64",
     "armorType": "leather",
     "base": {
-      "earthDefence": 5,
-      "health": 60
+      "earthDefence": 8,
+      "health": 145
     },
     "dropRestriction": "never",
     "identifications": {
-      "earthDamage": 5,
-      "mainAttackDamage": 10,
-      "rawStrength": 3,
-      "spellDamage": -5
+      "earthDamage": 8,
+      "mainAttackDamage": 17,
+      "spellDamage": -8
     },
     "identified": true,
     "internalName": "Rock Mask",
     "requirements": {
-      "level": 15,
+      "level": 26,
       "quest": "Creeper Infiltration"
     },
     "skin": "454d9c488c3fbde5454e38619f9cc5b5ba8c6c0186f8aa1da60900fcbc3ea6",
@@ -112441,13 +112957,12 @@
     "dropRestriction": "never",
     "identifications": {
       "1stSpellCost": -150,
-      "airDamage": -25,
+      "healingEfficiency": -13,
       "manaRegen": 12,
       "rawAgility": 25,
       "rawIntelligence": 15,
       "reflection": 50,
-      "spellDamage": 65,
-      "waterDamage": -25
+      "spellDamage": 40
     },
     "identified": true,
     "internalName": "Royal Hydrangea",
@@ -113122,16 +113637,17 @@
     "armorType": "chain",
     "base": {
       "airDefence": 10,
-      "health": 305,
+      "health": 310,
       "waterDefence": 15
     },
     "dropRestriction": "never",
     "identifications": {
-      "airDamage": 5,
+      "airDamage": 7,
+      "healingEfficiency": 5,
       "manaRegen": 6,
       "rawAgility": 3,
-      "waterDamage": 5,
-      "xpBonus": 6
+      "waterDamage": 7,
+      "xpBonus": 10
     },
     "identified": true,
     "internalName": "Sacred",
@@ -113926,6 +114442,11 @@
     },
     "dropRestriction": "normal",
     "identifications": {
+      "healingEfficiency": {
+        "max": 18,
+        "min": 4,
+        "raw": 14
+      },
       "healthRegen": {
         "max": 33,
         "min": 8,
@@ -113941,11 +114462,6 @@
         "max": 20,
         "min": 5,
         "raw": 15
-      },
-      "waterDamage": {
-        "max": 35,
-        "min": 8,
-        "raw": 27
       }
     },
     "internalName": "Sanare",
@@ -114981,6 +115497,11 @@
         "min": 3,
         "raw": 10
       },
+      "healingEfficiency": {
+        "max": 13,
+        "min": 3,
+        "raw": 10
+      },
       "mainAttackDamage": {
         "max": -17,
         "min": -32,
@@ -115639,48 +116160,51 @@
   "Scorpio": {
     "armorType": "diamond",
     "base": {
-      "earthDefence": 160,
-      "fireDefence": 80,
-      "health": 3000,
-      "waterDefence": -200
+      "earthDefence": 120,
+      "fireDefence": 120,
+      "health": 3300
     },
     "dropRestriction": "normal",
     "identifications": {
-      "earthDamage": {
-        "max": -98,
-        "min": -182,
-        "raw": -140
+      "airDefence": {
+        "max": -45,
+        "min": -84,
+        "raw": -65
       },
-      "exploding": {
-        "max": 52,
-        "min": 12,
-        "raw": 40
+      "healingEfficiency": {
+        "max": 20,
+        "min": 5,
+        "raw": 15
       },
       "healthRegenRaw": {
-        "max": 163,
-        "min": 38,
-        "raw": 125
+        "max": 241,
+        "min": 56,
+        "raw": 185
       },
       "poison": {
-        "max": 5070,
-        "min": 1170,
-        "raw": 3900
+        "max": 12675,
+        "min": 2925,
+        "raw": 9750
       },
-      "rawStrength": 25,
+      "rawDefence": 8,
       "thorns": {
-        "max": 31,
-        "min": 7,
-        "raw": 24
+        "max": 39,
+        "min": 9,
+        "raw": 30
+      },
+      "walkSpeed": {
+        "max": 16,
+        "min": 4,
+        "raw": 12
       }
     },
     "internalName": "Scorpio",
     "lore": "The carapace of the common Maexi pet fire scarabs, while alone, only cause minor burns to the touch. However, when woven together, they produce a variety of cumulative effects.",
     "powderSlots": 2,
     "requirements": {
-      "defence": 15,
-      "dexterity": 15,
+      "defence": 55,
       "level": 90,
-      "strength": 65
+      "strength": 35
     },
     "tier": "legendary",
     "type": "boots"
@@ -117261,6 +117785,11 @@
         "min": 6,
         "raw": 20
       },
+      "healingEfficiency": {
+        "max": 16,
+        "min": 4,
+        "raw": 12
+      },
       "poison": {
         "max": 20475,
         "min": 4725,
@@ -117286,11 +117815,6 @@
         "max": -21,
         "min": -39,
         "raw": -30
-      },
-      "waterDamage": {
-        "max": 26,
-        "min": 6,
-        "raw": 20
       },
       "waterDefence": {
         "max": 20,
@@ -119344,18 +119868,18 @@
     "armorColor": "160,101,64",
     "armorType": "leather",
     "base": {
-      "health": 50
+      "health": 115
     },
     "dropRestriction": "never",
     "identifications": {
-      "rawSpellDamage": 10,
-      "soulPointRegen": 5,
+      "lootBonus": 15,
+      "rawSpellDamage": 16,
       "xpBonus": 15
     },
     "identified": true,
     "internalName": "Shiny Mask",
     "requirements": {
-      "level": 15,
+      "level": 26,
       "quest": "Creeper Infiltration"
     },
     "skin": "65d7bed8df714cea063e457ba5e87931141de293dd1d9b9146b0f5ab383866",
@@ -122551,7 +123075,7 @@
     "type": "bow"
   },
   "Skipjack": {
-    "accessoryType": "bracelet",
+    "accessoryType": "ring",
     "dropMeta": {
       "coordinates": [
         -861,
@@ -122569,7 +123093,7 @@
     },
     "identified": true,
     "internalName": "Skipjack",
-    "material": "259:35",
+    "material": "259:1",
     "requirements": {
       "level": 98
     },
@@ -127495,10 +128019,10 @@
         "min": -19,
         "raw": -15
       },
-      "fireDamage": {
-        "max": 10,
-        "min": 2,
-        "raw": 8
+      "healingEfficiency": {
+        "max": 13,
+        "min": 3,
+        "raw": 10
       },
       "manaRegen": {
         "max": 8,
@@ -127520,11 +128044,6 @@
         "max": 20,
         "min": 5,
         "raw": 15
-      },
-      "waterDamage": {
-        "max": 10,
-        "min": 2,
-        "raw": 8
       }
     },
     "internalName": "Spiritdancer",
@@ -132931,6 +133450,11 @@
     },
     "dropRestriction": "normal",
     "identifications": {
+      "healingEfficiency": {
+        "max": -10,
+        "min": -19,
+        "raw": -15
+      },
       "lifeSteal": {
         "max": 813,
         "min": 188,
@@ -132955,11 +133479,6 @@
         "max": 26,
         "min": 6,
         "raw": 20
-      },
-      "waterDamage": {
-        "max": -21,
-        "min": -39,
-        "raw": -30
       }
     },
     "internalName": "Sunstar",
@@ -134150,10 +134669,15 @@
         "min": 3,
         "raw": 9
       },
+      "healingEfficiency": {
+        "max": -6,
+        "min": -10,
+        "raw": -8
+      },
       "lifeSteal": {
-        "max": 150,
-        "min": 35,
-        "raw": 115
+        "max": 156,
+        "min": 36,
+        "raw": 120
       },
       "rawDefence": 4,
       "rawDexterity": 5,
@@ -134164,14 +134688,9 @@
         "raw": 75
       },
       "thunderDamage": {
-        "max": 8,
-        "min": 2,
-        "raw": 6
-      },
-      "waterDamage": {
-        "max": -8,
-        "min": -16,
-        "raw": -12
+        "max": 12,
+        "min": 3,
+        "raw": 9
       }
     },
     "internalName": "Takeover",
@@ -135269,6 +135788,15 @@
     "base": {
       "thunderDefence": 30
     },
+    "dropMeta": {
+      "coordinates": [
+        -565,
+        125,
+        -1357
+      ],
+      "name": "Temporal Rift",
+      "type": "specialdrop"
+    },
     "dropRestriction": "never",
     "identifications": {
       "healthRegenRaw": {
@@ -135325,6 +135853,11 @@
     },
     "dropRestriction": "normal",
     "identifications": {
+      "healingEfficiency": {
+        "max": 13,
+        "min": 3,
+        "raw": 10
+      },
       "healthRegenRaw": {
         "max": 46,
         "min": 11,
@@ -135344,11 +135877,6 @@
         "max": -10,
         "min": -19,
         "raw": -15
-      },
-      "waterDamage": {
-        "max": 26,
-        "min": 6,
-        "raw": 20
       }
     },
     "internalName": "Temporal Lantern",
@@ -136798,10 +137326,9 @@
     },
     "dropRestriction": "never",
     "identifications": {
+      "healingEfficiency": -20,
       "manaRegen": -12,
-      "rawSpellDamage": 425,
-      "soulPointRegen": 10,
-      "waterDamage": -20
+      "rawSpellDamage": 500
     },
     "identified": true,
     "internalName": "The Crossing",
@@ -138082,6 +138609,11 @@
         "min": 5,
         "raw": 15
       },
+      "healingEfficiency": {
+        "max": -4,
+        "min": -8,
+        "raw": -6
+      },
       "lootBonus": {
         "max": 13,
         "min": 3,
@@ -138102,11 +138634,6 @@
         "max": 20,
         "min": 5,
         "raw": 15
-      },
-      "waterDamage": {
-        "max": -7,
-        "min": -13,
-        "raw": -10
       }
     },
     "internalName": "The Mark",
@@ -138228,6 +138755,11 @@
     },
     "dropRestriction": "normal",
     "identifications": {
+      "healingEfficiency": {
+        "max": 8,
+        "min": 2,
+        "raw": 6
+      },
       "healthRegen": {
         "max": 26,
         "min": 6,
@@ -138252,11 +138784,6 @@
         "max": -10,
         "min": -19,
         "raw": -15
-      },
-      "waterDamage": {
-        "max": 13,
-        "min": 3,
-        "raw": 10
       }
     },
     "internalName": "The Medic",
@@ -138986,6 +139513,7 @@
     "dropRestriction": "never",
     "identifications": {
       "earthDefence": 15,
+      "healingEfficiency": 10,
       "raw3rdSpellCost": -10,
       "spellDamage": -12,
       "waterDamage": 20,
@@ -140475,6 +141003,16 @@
       "health": 135,
       "thunderDefence": 3
     },
+    "dropMeta": {
+      "coordinates": [
+        707,
+        75,
+        -1819,
+        80
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
+    },
     "dropRestriction": "normal",
     "identifications": {
       "rawDexterity": 4,
@@ -140511,6 +141049,16 @@
         "max": 100,
         "min": 35
       }
+    },
+    "dropMeta": {
+      "coordinates": [
+        -170,
+        76,
+        -694,
+        80
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -140562,6 +141110,16 @@
     "base": {
       "health": 260,
       "thunderDefence": 9
+    },
+    "dropMeta": {
+      "coordinates": [
+        1091,
+        116,
+        -1476,
+        100
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -140651,6 +141209,16 @@
       "health": 190,
       "thunderDefence": 6
     },
+    "dropMeta": {
+      "coordinates": [
+        1328,
+        80,
+        -2084,
+        120
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
+    },
     "dropRestriction": "normal",
     "identifications": {
       "rawDexterity": 5,
@@ -140681,6 +141249,16 @@
     "base": {
       "health": 335,
       "thunderDefence": 12
+    },
+    "dropMeta": {
+      "coordinates": [
+        -103,
+        80,
+        -869,
+        100
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -140718,6 +141296,16 @@
         "max": 80,
         "min": 10
       }
+    },
+    "dropMeta": {
+      "coordinates": [
+        -289,
+        23,
+        -471,
+        100
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -140776,6 +141364,16 @@
         "min": 30
       }
     },
+    "dropMeta": {
+      "coordinates": [
+        -805,
+        23,
+        -497,
+        120
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
+    },
     "dropRestriction": "never",
     "identifications": {
       "lootBonus": {
@@ -140832,6 +141430,16 @@
         "max": 55,
         "min": 10
       }
+    },
+    "dropMeta": {
+      "coordinates": [
+        -654,
+        88,
+        -738,
+        80
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -142797,6 +143405,7 @@
     },
     "dropRestriction": "never",
     "identifications": {
+      "healingEfficiency": 18,
       "manaRegen": -5,
       "manaSteal": -5,
       "rawHealth": -100,
@@ -145682,6 +146291,7 @@
     },
     "dropRestriction": "never",
     "identifications": {
+      "healingEfficiency": 5,
       "healthRegen": 8,
       "mainAttackDamage": -7,
       "spellDamage": 10,
@@ -150540,12 +151150,13 @@
     "armorColor": "160,101,64",
     "armorType": "leather",
     "base": {
-      "health": -25,
-      "waterDefence": 10
+      "health": -40,
+      "waterDefence": 15
     },
     "dropRestriction": "never",
     "identifications": {
-      "manaRegen": 6,
+      "healing": 10,
+      "manaRegen": 10,
       "rawIntelligence": 5,
       "spellDamage": 10,
       "waterDamage": 10
@@ -150553,7 +151164,7 @@
     "identified": true,
     "internalName": "Water Mask",
     "requirements": {
-      "level": 17,
+      "level": 28,
       "quest": "Creeper Infiltration"
     },
     "skin": "5c7ecbfd6d33e873a1cf9a92f57f146152b52d9d7311694602671111a302f",
@@ -150566,6 +151177,16 @@
     "base": {
       "health": 130,
       "waterDefence": 6
+    },
+    "dropMeta": {
+      "coordinates": [
+        707,
+        75,
+        -1819,
+        80
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -150603,6 +151224,16 @@
         "max": 80,
         "min": 70
       }
+    },
+    "dropMeta": {
+      "coordinates": [
+        -170,
+        76,
+        -694,
+        80
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -150655,6 +151286,16 @@
       "health": 245,
       "waterDefence": 18
     },
+    "dropMeta": {
+      "coordinates": [
+        1091,
+        116,
+        -1476,
+        100
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
+    },
     "dropRestriction": "normal",
     "identifications": {
       "rawIntelligence": 7,
@@ -150692,6 +151333,16 @@
         "min": 55
       }
     },
+    "dropMeta": {
+      "coordinates": [
+        -862,
+        22,
+        -310,
+        120
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
+    },
     "dropRestriction": "never",
     "identifications": {
       "lootBonus": {
@@ -150726,11 +151377,11 @@
         "raw": 15
       }
     },
-    "internalName": "Water Relic Dagger",
+    "internalName": "Water Relic Daggers",
     "material": "359:15",
     "powderSlots": 3,
     "requirements": {
-      "intelligence": 30,
+      "intelligence": 25,
       "level": 65
     },
     "tier": "rare",
@@ -150742,6 +151393,16 @@
     "base": {
       "health": 185,
       "waterDefence": 12
+    },
+    "dropMeta": {
+      "coordinates": [
+        1328,
+        80,
+        -2084,
+        120
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -150773,6 +151434,16 @@
     "base": {
       "health": 320,
       "waterDefence": 24
+    },
+    "dropMeta": {
+      "coordinates": [
+        -103,
+        80,
+        -869,
+        100
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -150810,6 +151481,16 @@
         "max": 60,
         "min": 50
       }
+    },
+    "dropMeta": {
+      "coordinates": [
+        -289,
+        23,
+        -471,
+        100
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -150868,6 +151549,16 @@
         "min": 70
       }
     },
+    "dropMeta": {
+      "coordinates": [
+        -805,
+        23,
+        -497,
+        120
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
+    },
     "dropRestriction": "never",
     "identifications": {
       "lootBonus": {
@@ -150924,6 +151615,16 @@
         "max": 35,
         "min": 30
       }
+    },
+    "dropMeta": {
+      "coordinates": [
+        -654,
+        88,
+        -738,
+        80
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -154760,7 +155461,6 @@
     },
     "dropRestriction": "never",
     "identifications": {
-      "manaRegen": -10,
       "raw1stSpellCost": -2,
       "raw2ndSpellCost": -2,
       "raw3rdSpellCost": -2,
