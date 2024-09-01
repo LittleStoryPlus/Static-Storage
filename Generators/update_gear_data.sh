@@ -6,7 +6,7 @@ TARGET_DIR=$(cd $(dirname "$0")/.. >/dev/null 2>&1 && pwd)/Reference
 cd $TARGET_DIR
 
 # Download the json file from Wynncraft API
-curl -X POST -d '{"type":["weapon","armour","accessory"]}' -H "Content-Type: application/json" -o gear.json.tmp "https://beta-api.wynncraft.com/v3/item/search?fullResult=True"
+curl -X POST -d '{"type":["weapon","armour","accessory"]}' -H "Content-Type: application/json" -o gear.json.tmp "https://api.wynncraft.com/v3/item/search?fullResult=True"
 
 if [ ! -s gear.json.tmp ]; then
     rm gear.json.tmp
@@ -35,10 +35,4 @@ MD5=$(md5sum $TARGET_DIR/gear.json | cut -d' ' -f1)
 
 # Update urls.json with the new md5sum for dataStaticGear
 jq '. = [.[] | if (.id == "dataStaticGear") then (.md5 = "'$MD5'") else . end]' < ../Data-Storage/urls.json > ../Data-Storage/urls.json.tmp
-
-# If the temp file is different from the original, bump the version number
-if ! cmp -s ../Data-Storage/urls.json ../Data-Storage/urls.json.tmp; then
-    jq 'map(if has("version") then .version += 1 else . end)' < ../Data-Storage/urls.json.tmp > ../Data-Storage/urls.json
-fi
-
-rm ../Data-Storage/urls.json.tmp
+mv ../Data-Storage/urls.json.tmp ../Data-Storage/urls.json
