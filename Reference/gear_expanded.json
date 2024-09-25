@@ -127,6 +127,75 @@
     "restrictions": "untradable",
     "type": "armour"
   },
+  "Abhorrence": {
+    "attackSpeed": "very_slow",
+    "averageDps": 506,
+    "base": {
+      "baseDamage": {
+        "max": 120,
+        "min": 100,
+        "raw": 100
+      },
+      "baseFireDamage": {
+        "max": 310,
+        "min": 190,
+        "raw": 190
+      },
+      "baseThunderDamage": {
+        "max": 350,
+        "min": 150,
+        "raw": 150
+      }
+    },
+    "dropRestriction": "normal",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "455",
+        "id": "minecraft:iron_horse_armor",
+        "name": "spear.fire3"
+      }
+    },
+    "identifications": {
+      "4thSpellCost": {
+        "max": -32,
+        "min": -7,
+        "raw": -25
+      },
+      "elementalDefence": {
+        "max": -49,
+        "min": -91,
+        "raw": -70
+      },
+      "healthRegen": {
+        "max": -24,
+        "min": -45,
+        "raw": -35
+      },
+      "lifeSteal": {
+        "max": 566,
+        "min": 131,
+        "raw": 435
+      },
+      "rawMainAttackDamage": {
+        "max": 585,
+        "min": 135,
+        "raw": 450
+      },
+      "rawStrength": -40
+    },
+    "internalName": "Abhorrence",
+    "powderSlots": 3,
+    "rarity": "legendary",
+    "requirements": {
+      "classRequirement": "warrior",
+      "defence": 60,
+      "dexterity": 45,
+      "level": 103
+    },
+    "type": "weapon",
+    "weaponType": "spear"
+  },
   "Ablution": {
     "attackSpeed": "normal",
     "averageDps": 103,
@@ -362,9 +431,9 @@
         "raw": 20
       },
       "healingEfficiency": {
-        "max": 130,
-        "min": 30,
-        "raw": 100
+        "max": 100,
+        "min": 23,
+        "raw": 77
       },
       "manaRegen": {
         "max": 21,
@@ -2575,6 +2644,82 @@
       "level": 23
     },
     "type": "armour"
+  },
+  "Agglomerate Apex": {
+    "attackSpeed": "fast",
+    "averageDps": 600,
+    "base": {
+      "baseAirDamage": {
+        "max": 100,
+        "min": 20,
+        "raw": 20
+      },
+      "baseFireDamage": {
+        "max": 70,
+        "min": 50,
+        "raw": 50
+      },
+      "baseThunderDamage": {
+        "max": 120,
+        "min": 0,
+        "raw": 0
+      },
+      "baseWaterDamage": {
+        "max": 85,
+        "min": 35,
+        "raw": 35
+      }
+    },
+    "dropRestriction": "never",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "198",
+        "id": "minecraft:iron_horse_armor",
+        "name": "bow.water3"
+      }
+    },
+    "identifications": {
+      "healthRegenRaw": {
+        "max": -315,
+        "min": -585,
+        "raw": -450
+      },
+      "lifeSteal": {
+        "max": 580,
+        "min": 134,
+        "raw": 446
+      },
+      "manaRegen": {
+        "max": 12,
+        "min": 3,
+        "raw": 9
+      },
+      "rawElementalSpellDamage": {
+        "max": 250,
+        "min": 58,
+        "raw": 192
+      },
+      "rawStrength": -70,
+      "sprint": {
+        "max": 27,
+        "min": 6,
+        "raw": 21
+      }
+    },
+    "internalName": "Agglomerate Apex",
+    "powderSlots": 4,
+    "rarity": "rare",
+    "requirements": {
+      "agility": 40,
+      "classRequirement": "archer",
+      "defence": 40,
+      "dexterity": 40,
+      "intelligence": 40,
+      "level": 104
+    },
+    "type": "weapon",
+    "weaponType": "bow"
   },
   "Aggression": {
     "accessoryType": "bracelet",
@@ -7990,7 +8135,9 @@
     "armourMaterial": "diamond",
     "armourType": "chestplate",
     "base": {
-      "baseHealth": 3000
+      "baseHealth": 3000,
+      "baseThunderDefence": -175,
+      "baseWaterDefence": 230
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -8003,6 +8150,16 @@
         "max": 55,
         "min": 13,
         "raw": 42
+      },
+      "waterDefence": {
+        "max": 85,
+        "min": 20,
+        "raw": 65
+      },
+      "waterSpellDamage": {
+        "max": 20,
+        "min": 5,
+        "raw": 15
       }
     },
     "internalName": "Aquarius",
@@ -22363,7 +22520,7 @@
         "min": 24,
         "raw": 80
       },
-      "healthRegen": {
+      "healthRegenRaw": {
         "max": -150,
         "min": -279,
         "raw": -215
@@ -22543,114 +22700,6 @@
     },
     "type": "weapon",
     "weaponType": "spear"
-  },
-  "Builder's Boots": {
-    "armourMaterial": "chain",
-    "armourType": "helmet",
-    "base": {
-      "baseAirDefence": 10,
-      "baseEarthDefence": 10,
-      "baseFireDefence": 10,
-      "baseHealth": 550,
-      "baseThunderDefence": 10,
-      "baseWaterDefence": 10
-    },
-    "dropRestriction": "never",
-    "identifications": {
-      "rawAgility": 1,
-      "rawDefence": 1,
-      "rawDexterity": 1,
-      "rawIntelligence": 1,
-      "rawStrength": 1
-    },
-    "internalName": "Builder's Boots",
-    "rarity": "set",
-    "requirements": {
-      "level": 50
-    },
-    "restrictions": "untradable",
-    "type": "armour"
-  },
-  "Builder's Breastplate": {
-    "armourMaterial": "chain",
-    "armourType": "helmet",
-    "base": {
-      "baseAirDefence": 10,
-      "baseEarthDefence": 10,
-      "baseFireDefence": 10,
-      "baseHealth": 550,
-      "baseThunderDefence": 10,
-      "baseWaterDefence": 10
-    },
-    "dropRestriction": "never",
-    "identifications": {
-      "rawAgility": 1,
-      "rawDefence": 1,
-      "rawDexterity": 1,
-      "rawIntelligence": 1,
-      "rawStrength": 1
-    },
-    "internalName": "Builder's Breastplate",
-    "rarity": "set",
-    "requirements": {
-      "level": 50
-    },
-    "restrictions": "untradable",
-    "type": "armour"
-  },
-  "Builder's Helmet": {
-    "armourMaterial": "chain",
-    "armourType": "helmet",
-    "base": {
-      "baseAirDefence": 10,
-      "baseEarthDefence": 10,
-      "baseFireDefence": 10,
-      "baseHealth": 550,
-      "baseThunderDefence": 10,
-      "baseWaterDefence": 10
-    },
-    "dropRestriction": "never",
-    "identifications": {
-      "rawAgility": 1,
-      "rawDefence": 1,
-      "rawDexterity": 1,
-      "rawIntelligence": 1,
-      "rawStrength": 1
-    },
-    "internalName": "Builder's Helmet",
-    "rarity": "set",
-    "requirements": {
-      "level": 50
-    },
-    "restrictions": "untradable",
-    "type": "armour"
-  },
-  "Builder's Trousers": {
-    "armourMaterial": "chain",
-    "armourType": "helmet",
-    "base": {
-      "baseAirDefence": 10,
-      "baseEarthDefence": 10,
-      "baseFireDefence": 10,
-      "baseHealth": 550,
-      "baseThunderDefence": 10,
-      "baseWaterDefence": 10
-    },
-    "dropRestriction": "never",
-    "identifications": {
-      "rawAgility": 1,
-      "rawDefence": 1,
-      "rawDexterity": 1,
-      "rawIntelligence": 1,
-      "rawStrength": 1
-    },
-    "internalName": "Builder's Trousers",
-    "rarity": "set",
-    "requirements": {
-      "level": 50
-    },
-    "restrictions": "untradable",
-    "type": "armour"
   },
   "Bull": {
     "attackSpeed": "fast",
@@ -22861,6 +22910,68 @@
     "type": "weapon",
     "weaponType": "relik"
   },
+  "Buried Glory": {
+    "attackSpeed": "super_slow",
+    "averageDps": 434,
+    "base": {
+      "baseDamage": {
+        "max": 350,
+        "min": 250,
+        "raw": 250
+      },
+      "baseEarthDamage": {
+        "max": 650,
+        "min": 450,
+        "raw": 450
+      }
+    },
+    "dropRestriction": "normal",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "452",
+        "id": "minecraft:iron_horse_armor",
+        "name": "spear.earth3"
+      }
+    },
+    "identifications": {
+      "2ndSpellCost": {
+        "max": 21,
+        "min": 39,
+        "raw": 30
+      },
+      "poison": {
+        "max": 11050,
+        "min": 2550,
+        "raw": 8500
+      },
+      "rawAttackSpeed": {
+        "max": -1,
+        "min": -3,
+        "raw": -2
+      },
+      "rawEarthMainAttackDamage": {
+        "max": 780,
+        "min": 180,
+        "raw": 600
+      },
+      "rawSpellDamage": {
+        "max": -98,
+        "min": -182,
+        "raw": -140
+      }
+    },
+    "internalName": "Buried Glory",
+    "powderSlots": 3,
+    "rarity": "unique",
+    "requirements": {
+      "classRequirement": "warrior",
+      "level": 104,
+      "strength": 60
+    },
+    "type": "weapon",
+    "weaponType": "spear"
+  },
   "Burn": {
     "accessoryType": "ring",
     "dropRestriction": "lootchest",
@@ -22935,6 +23046,68 @@
       "level": 18
     },
     "type": "armour"
+  },
+  "Burning Passion": {
+    "attackSpeed": "normal",
+    "averageDps": 546,
+    "base": {
+      "baseDamage": {
+        "max": 120,
+        "min": 80,
+        "raw": 80
+      },
+      "baseFireDamage": {
+        "max": 170,
+        "min": 160,
+        "raw": 160
+      }
+    },
+    "dropRestriction": "normal",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "389",
+        "id": "minecraft:iron_horse_armor",
+        "name": "relik.fire3"
+      }
+    },
+    "identifications": {
+      "exploding": {
+        "max": 46,
+        "min": 11,
+        "raw": 35
+      },
+      "manaRegen": {
+        "max": -7,
+        "min": -13,
+        "raw": -10
+      },
+      "raw4thSpellCost": {
+        "max": -5,
+        "min": -1,
+        "raw": -4
+      },
+      "rawFireSpellDamage": {
+        "max": 195,
+        "min": 45,
+        "raw": 150
+      },
+      "rawHealth": {
+        "max": -945,
+        "min": -1755,
+        "raw": -1350
+      }
+    },
+    "internalName": "Burning Passion",
+    "powderSlots": 3,
+    "rarity": "unique",
+    "requirements": {
+      "classRequirement": "shaman",
+      "defence": 60,
+      "level": 104
+    },
+    "type": "weapon",
+    "weaponType": "relik"
   },
   "Burning Torch": {
     "attackSpeed": "very_slow",
@@ -27061,22 +27234,22 @@
   },
   "Cerberus": {
     "attackSpeed": "slow",
-    "averageDps": 330,
+    "averageDps": 368,
     "base": {
       "baseDamage": {
-        "max": 75,
-        "min": 45,
-        "raw": 45
+        "max": 80,
+        "min": 50,
+        "raw": 50
       },
       "baseFireDamage": {
-        "max": 100,
-        "min": 80,
-        "raw": 80
+        "max": 110,
+        "min": 90,
+        "raw": 90
       },
       "baseThunderDamage": {
-        "max": 120,
-        "min": 20,
-        "raw": 20
+        "max": 130,
+        "min": 30,
+        "raw": 30
       }
     },
     "dropRestriction": "never",
@@ -34199,9 +34372,9 @@
         "raw": 6
       },
       "rawMainAttackDamage": {
-        "max": -10000,
-        "min": -18572,
-        "raw": -14286
+        "max": -25000,
+        "min": -46429,
+        "raw": -35715
       },
       "spellDamage": {
         "max": 30,
@@ -49251,6 +49424,68 @@
     },
     "type": "accessory"
   },
+  "Drowned Pride": {
+    "attackSpeed": "slow",
+    "averageDps": 270,
+    "base": {
+      "baseDamage": {
+        "max": 100,
+        "min": 60,
+        "raw": 60
+      },
+      "baseWaterDamage": {
+        "max": 120,
+        "min": 80,
+        "raw": 80
+      }
+    },
+    "dropRestriction": "normal",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "329",
+        "id": "minecraft:iron_horse_armor",
+        "name": "wand.water3"
+      }
+    },
+    "identifications": {
+      "healingEfficiency": {
+        "max": 26,
+        "min": 6,
+        "raw": 20
+      },
+      "manaRegen": {
+        "max": 20,
+        "min": 5,
+        "raw": 15
+      },
+      "rawHealth": {
+        "max": -1050,
+        "min": -1950,
+        "raw": -1500
+      },
+      "walkSpeed": {
+        "max": -14,
+        "min": -26,
+        "raw": -20
+      },
+      "waterSpellDamage": {
+        "max": 52,
+        "min": 12,
+        "raw": 40
+      }
+    },
+    "internalName": "Drowned Pride",
+    "powderSlots": 3,
+    "rarity": "unique",
+    "requirements": {
+      "classRequirement": "mage",
+      "intelligence": 60,
+      "level": 104
+    },
+    "type": "weapon",
+    "weaponType": "wand"
+  },
   "Druid's Ring": {
     "accessoryType": "ring",
     "base": {
@@ -50807,16 +51042,6 @@
         "raw": 85
       }
     },
-    "dropMeta": {
-      "coordinates": [
-        -862,
-        22,
-        -310,
-        120
-      ],
-      "name": "Relic Guardian",
-      "type": "miniboss"
-    },
     "dropRestriction": "never",
     "icon": {
       "format": "attribute",
@@ -50859,13 +51084,13 @@
         "raw": 15
       }
     },
-    "internalName": "Earth Relic Daggers",
+    "internalName": "Earth Relic Dagger",
     "powderSlots": 3,
     "rarity": "rare",
     "requirements": {
       "classRequirement": "assassin",
       "level": 65,
-      "strength": 25
+      "strength": 30
     },
     "type": "weapon",
     "weaponType": "dagger"
@@ -58032,24 +58257,24 @@
     },
     "identifications": {
       "1stSpellCost": {
-        "max": -35,
-        "min": -8,
-        "raw": -27
+        "max": -55,
+        "min": -13,
+        "raw": -42
       },
       "2ndSpellCost": {
-        "max": -35,
-        "min": -8,
-        "raw": -27
+        "max": -55,
+        "min": -13,
+        "raw": -42
       },
       "3rdSpellCost": {
-        "max": -35,
-        "min": -8,
-        "raw": -27
+        "max": -55,
+        "min": -13,
+        "raw": -42
       },
       "4thSpellCost": {
-        "max": -35,
-        "min": -8,
-        "raw": -27
+        "max": -55,
+        "min": -13,
+        "raw": -42
       },
       "manaRegen": {
         "max": -14,
@@ -67457,114 +67682,6 @@
     },
     "type": "weapon",
     "weaponType": "bow"
-  },
-  "GM's Boots": {
-    "armourMaterial": "chain",
-    "armourType": "helmet",
-    "base": {
-      "baseAirDefence": 10,
-      "baseEarthDefence": 10,
-      "baseFireDefence": 10,
-      "baseHealth": 550,
-      "baseThunderDefence": 10,
-      "baseWaterDefence": 10
-    },
-    "dropRestriction": "never",
-    "identifications": {
-      "rawAgility": 1,
-      "rawDefence": 1,
-      "rawDexterity": 1,
-      "rawIntelligence": 1,
-      "rawStrength": 1
-    },
-    "internalName": "GM's Boots",
-    "rarity": "set",
-    "requirements": {
-      "level": 50
-    },
-    "restrictions": "untradable",
-    "type": "armour"
-  },
-  "GM's Breastplate": {
-    "armourMaterial": "chain",
-    "armourType": "helmet",
-    "base": {
-      "baseAirDefence": 10,
-      "baseEarthDefence": 10,
-      "baseFireDefence": 10,
-      "baseHealth": 550,
-      "baseThunderDefence": 10,
-      "baseWaterDefence": 10
-    },
-    "dropRestriction": "never",
-    "identifications": {
-      "rawAgility": 1,
-      "rawDefence": 1,
-      "rawDexterity": 1,
-      "rawIntelligence": 1,
-      "rawStrength": 1
-    },
-    "internalName": "GM's Breastplate",
-    "rarity": "set",
-    "requirements": {
-      "level": 50
-    },
-    "restrictions": "untradable",
-    "type": "armour"
-  },
-  "GM's Helmet": {
-    "armourMaterial": "chain",
-    "armourType": "helmet",
-    "base": {
-      "baseAirDefence": 10,
-      "baseEarthDefence": 10,
-      "baseFireDefence": 10,
-      "baseHealth": 550,
-      "baseThunderDefence": 10,
-      "baseWaterDefence": 10
-    },
-    "dropRestriction": "never",
-    "identifications": {
-      "rawAgility": 1,
-      "rawDefence": 1,
-      "rawDexterity": 1,
-      "rawIntelligence": 1,
-      "rawStrength": 1
-    },
-    "internalName": "GM's Helmet",
-    "rarity": "set",
-    "requirements": {
-      "level": 50
-    },
-    "restrictions": "untradable",
-    "type": "armour"
-  },
-  "GM's Trousers": {
-    "armourMaterial": "chain",
-    "armourType": "helmet",
-    "base": {
-      "baseAirDefence": 10,
-      "baseEarthDefence": 10,
-      "baseFireDefence": 10,
-      "baseHealth": 550,
-      "baseThunderDefence": 10,
-      "baseWaterDefence": 10
-    },
-    "dropRestriction": "never",
-    "identifications": {
-      "rawAgility": 1,
-      "rawDefence": 1,
-      "rawDexterity": 1,
-      "rawIntelligence": 1,
-      "rawStrength": 1
-    },
-    "internalName": "GM's Trousers",
-    "rarity": "set",
-    "requirements": {
-      "level": 50
-    },
-    "restrictions": "untradable",
-    "type": "armour"
   },
   "Gaea-Hewn Boots": {
     "armourMaterial": "diamond",
@@ -81445,6 +81562,73 @@
     },
     "type": "armour"
   },
+  "Hurricane Recurve": {
+    "attackSpeed": "super_slow",
+    "averageDps": 740,
+    "base": {
+      "baseAirDamage": {
+        "max": 1575,
+        "min": 425,
+        "raw": 425
+      },
+      "baseDamage": {
+        "max": 705,
+        "min": 195,
+        "raw": 195
+      }
+    },
+    "dropRestriction": "never",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "186",
+        "id": "minecraft:iron_horse_armor",
+        "name": "bow.air3"
+      }
+    },
+    "identifications": {
+      "jumpHeight": {
+        "max": 3,
+        "min": 1,
+        "raw": 2
+      },
+      "knockback": {
+        "max": 85,
+        "min": 20,
+        "raw": 65
+      },
+      "rawAirMainAttackDamage": {
+        "max": 1430,
+        "min": 330,
+        "raw": 1100
+      },
+      "rawAttackSpeed": {
+        "max": -6,
+        "min": -12,
+        "raw": -9
+      },
+      "rawHealth": {
+        "max": -1155,
+        "min": -2145,
+        "raw": -1650
+      },
+      "walkSpeed": {
+        "max": 26,
+        "min": 6,
+        "raw": 20
+      }
+    },
+    "internalName": "Hurricane Recurve",
+    "powderSlots": 3,
+    "rarity": "legendary",
+    "requirements": {
+      "agility": 90,
+      "classRequirement": "archer",
+      "level": 96
+    },
+    "type": "weapon",
+    "weaponType": "bow"
+  },
   "Hustle Core": {
     "accessoryType": "ring",
     "dropRestriction": "normal",
@@ -82264,6 +82448,80 @@
     },
     "type": "weapon",
     "weaponType": "dagger"
+  },
+  "Idealogue": {
+    "attackSpeed": "normal",
+    "averageDps": 494,
+    "base": {
+      "baseDamage": {
+        "max": 40,
+        "min": 20,
+        "raw": 20
+      },
+      "baseFireDamage": {
+        "max": 80,
+        "min": 60,
+        "raw": 60
+      },
+      "baseThunderDamage": {
+        "max": 80,
+        "min": 60,
+        "raw": 60
+      },
+      "baseWaterDamage": {
+        "max": 80,
+        "min": 60,
+        "raw": 60
+      }
+    },
+    "dropRestriction": "normal",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "461",
+        "id": "minecraft:iron_horse_armor",
+        "name": "spear.water3"
+      }
+    },
+    "identifications": {
+      "manaRegen": {
+        "max": 13,
+        "min": 3,
+        "raw": 10
+      },
+      "raw1stSpellCost": {
+        "max": -8,
+        "min": -2,
+        "raw": -6
+      },
+      "raw3rdSpellCost": {
+        "max": 4,
+        "min": 7,
+        "raw": 5
+      },
+      "walkSpeed": {
+        "max": -10,
+        "min": -19,
+        "raw": -15
+      },
+      "waterDefence": {
+        "max": 52,
+        "min": 12,
+        "raw": 40
+      }
+    },
+    "internalName": "Idealogue",
+    "powderSlots": 3,
+    "rarity": "legendary",
+    "requirements": {
+      "classRequirement": "warrior",
+      "defence": 45,
+      "dexterity": 45,
+      "intelligence": 45,
+      "level": 102
+    },
+    "type": "weapon",
+    "weaponType": "spear"
   },
   "Idol": {
     "attackSpeed": "normal",
@@ -86354,6 +86612,78 @@
     },
     "type": "weapon",
     "weaponType": "spear"
+  },
+  "Inscrutable Illusion": {
+    "attackSpeed": "very_fast",
+    "averageDps": 558,
+    "base": {
+      "baseAirDamage": {
+        "max": 65,
+        "min": 25,
+        "raw": 25
+      },
+      "baseEarthDamage": {
+        "max": 45,
+        "min": 45,
+        "raw": 45
+      },
+      "baseThunderDamage": {
+        "max": 90,
+        "min": 0,
+        "raw": 0
+      },
+      "baseWaterDamage": {
+        "max": 55,
+        "min": 35,
+        "raw": 35
+      }
+    },
+    "dropRestriction": "never",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "383",
+        "id": "minecraft:iron_horse_armor",
+        "name": "relik.air3"
+      }
+    },
+    "identifications": {
+      "elementalDamage": {
+        "max": 40,
+        "min": 9,
+        "raw": 31
+      },
+      "knockback": {
+        "max": 52,
+        "min": 12,
+        "raw": 40
+      },
+      "manaRegen": {
+        "max": 25,
+        "min": 6,
+        "raw": 19
+      },
+      "rawAttackSpeed": 1,
+      "rawDefence": -70,
+      "rawHealth": {
+        "max": -1400,
+        "min": -2600,
+        "raw": -2000
+      }
+    },
+    "internalName": "Inscrutable Illusion",
+    "powderSlots": 4,
+    "rarity": "rare",
+    "requirements": {
+      "agility": 40,
+      "classRequirement": "shaman",
+      "dexterity": 40,
+      "intelligence": 40,
+      "level": 104,
+      "strength": 40
+    },
+    "type": "weapon",
+    "weaponType": "relik"
   },
   "Insulated Plate Mail": {
     "armourMaterial": "diamond",
@@ -92367,9 +92697,9 @@
         "raw": -35
       },
       "healingEfficiency": {
-        "max": 40,
-        "min": 9,
-        "raw": 31
+        "max": 18,
+        "min": 4,
+        "raw": 14
       },
       "lifeSteal": {
         "max": -350,
@@ -97248,6 +97578,49 @@
     "type": "weapon",
     "weaponType": "wand"
   },
+  "Lurking Peril": {
+    "armourMaterial": "golden",
+    "armourType": "chestplate",
+    "base": {
+      "baseEarthDefence": 25,
+      "baseHealth": 450
+    },
+    "dropRestriction": "never",
+    "identifications": {
+      "3rdSpellCost": {
+        "max": -6,
+        "min": -1,
+        "raw": -5
+      },
+      "earthDamage": {
+        "max": 10,
+        "min": 2,
+        "raw": 8
+      },
+      "healthRegen": {
+        "max": 25,
+        "min": 6,
+        "raw": 19
+      },
+      "raw4thSpellCost": -1,
+      "rawStrength": 8,
+      "walkSpeed": {
+        "max": -6,
+        "min": -10,
+        "raw": -8
+      }
+    },
+    "internalName": "Lurking Peril",
+    "majorIds": {
+      "Lunge": "<span class='font-ascii' style='color:#55FFFF'>+Lunge: <span class='font-ascii' style='color:#00AAAA'>Hop and Leap's horizontal velocity is greatly increased</span></span>"
+    },
+    "rarity": "fabled",
+    "requirements": {
+      "level": 38,
+      "strength": 30
+    },
+    "type": "armour"
+  },
   "Lurrun": {
     "armourMaterial": "iron",
     "armourType": "helmet",
@@ -99157,6 +99530,82 @@
       "dexterity": 20,
       "intelligence": 20,
       "level": 48
+    },
+    "type": "weapon",
+    "weaponType": "spear"
+  },
+  "Malicious Maw": {
+    "attackSpeed": "slow",
+    "averageDps": 420,
+    "base": {
+      "baseEarthDamage": {
+        "max": 70,
+        "min": 70,
+        "raw": 70
+      },
+      "baseFireDamage": {
+        "max": 90,
+        "min": 50,
+        "raw": 50
+      },
+      "baseThunderDamage": {
+        "max": 140,
+        "min": 0,
+        "raw": 0
+      },
+      "baseWaterDamage": {
+        "max": 110,
+        "min": 30,
+        "raw": 30
+      }
+    },
+    "dropRestriction": "never",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "455",
+        "id": "minecraft:iron_horse_armor",
+        "name": "spear.fire3"
+      }
+    },
+    "identifications": {
+      "damage": {
+        "max": 52,
+        "min": 12,
+        "raw": 40
+      },
+      "healthRegenRaw": {
+        "max": 235,
+        "min": 54,
+        "raw": 181
+      },
+      "manaSteal": {
+        "max": 12,
+        "min": 3,
+        "raw": 9
+      },
+      "rawAgility": -70,
+      "rawHealth": {
+        "max": 2275,
+        "min": 525,
+        "raw": 1750
+      },
+      "walkSpeed": {
+        "max": -21,
+        "min": -39,
+        "raw": -30
+      }
+    },
+    "internalName": "Malicious Maw",
+    "powderSlots": 4,
+    "rarity": "rare",
+    "requirements": {
+      "classRequirement": "warrior",
+      "defence": 40,
+      "dexterity": 40,
+      "intelligence": 40,
+      "level": 104,
+      "strength": 40
     },
     "type": "weapon",
     "weaponType": "spear"
@@ -110946,7 +111395,7 @@
     "base": {
       "baseEarthDefence": 175,
       "baseFireDefence": 175,
-      "baseHealth": 5000,
+      "baseHealth": 4500,
       "baseThunderDefence": -200
     },
     "dropRestriction": "never",
@@ -110971,8 +111420,8 @@
         "min": -1,
         "raw": -2
       },
-      "rawDefence": 8,
-      "rawStrength": 8,
+      "rawDefence": 5,
+      "rawStrength": 5,
       "thunderDamage": {
         "max": -14,
         "min": -26,
@@ -117830,6 +118279,75 @@
     "type": "weapon",
     "weaponType": "wand"
   },
+  "Petulance": {
+    "attackSpeed": "slow",
+    "averageDps": 548,
+    "base": {
+      "baseAirDamage": {
+        "max": 115,
+        "min": 105,
+        "raw": 105
+      },
+      "baseDamage": {
+        "max": 90,
+        "min": 80,
+        "raw": 80
+      },
+      "baseThunderDamage": {
+        "max": 175,
+        "min": 165,
+        "raw": 165
+      }
+    },
+    "dropRestriction": "normal",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "259",
+        "id": "minecraft:iron_horse_armor",
+        "name": "dagger.thunder3"
+      }
+    },
+    "identifications": {
+      "healthRegenRaw": {
+        "max": -140,
+        "min": -260,
+        "raw": -200
+      },
+      "manaSteal": {
+        "max": 20,
+        "min": 5,
+        "raw": 15
+      },
+      "poison": {
+        "max": 13000,
+        "min": 3000,
+        "raw": 10000
+      },
+      "rawDefence": -40,
+      "rawMainAttackDamage": {
+        "max": 390,
+        "min": 90,
+        "raw": 300
+      },
+      "stealing": {
+        "max": 9,
+        "min": 2,
+        "raw": 7
+      }
+    },
+    "internalName": "Petulance",
+    "powderSlots": 3,
+    "rarity": "legendary",
+    "requirements": {
+      "agility": 40,
+      "classRequirement": "assassin",
+      "dexterity": 65,
+      "level": 103
+    },
+    "type": "weapon",
+    "weaponType": "dagger"
+  },
   "Pewter Ring": {
     "accessoryType": "ring",
     "base": {
@@ -120414,6 +120932,64 @@
       "level": 88
     },
     "type": "accessory"
+  },
+  "Pneumatic Grace": {
+    "attackSpeed": "very_fast",
+    "averageDps": 542,
+    "base": {
+      "baseAirDamage": {
+        "max": 145,
+        "min": 55,
+        "raw": 55
+      },
+      "baseDamage": {
+        "max": 105,
+        "min": 45,
+        "raw": 45
+      }
+    },
+    "dropRestriction": "normal",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "186",
+        "id": "minecraft:iron_horse_armor",
+        "name": "bow.air3"
+      }
+    },
+    "identifications": {
+      "healthRegen": {
+        "max": -21,
+        "min": -39,
+        "raw": -30
+      },
+      "jumpHeight": 1,
+      "lifeSteal": {
+        "max": -350,
+        "min": -650,
+        "raw": -500
+      },
+      "rawAirDamage": {
+        "max": 166,
+        "min": 38,
+        "raw": 128
+      },
+      "walkSpeed": {
+        "max": 26,
+        "min": 6,
+        "raw": 20
+      }
+    },
+    "internalName": "Pneumatic Grace",
+    "powderSlots": 3,
+    "rarity": "unique",
+    "requirements": {
+      "agility": 60,
+      "classRequirement": "archer",
+      "level": 104
+    },
+    "type": "weapon",
+    "weaponType": "bow"
   },
   "Poinsettia": {
     "attackSpeed": "fast",
@@ -131463,6 +132039,80 @@
     },
     "type": "accessory"
   },
+  "Renegade": {
+    "attackSpeed": "very_fast",
+    "averageDps": 620,
+    "base": {
+      "baseAirDamage": {
+        "max": 85,
+        "min": 35,
+        "raw": 35
+      },
+      "baseDamage": {
+        "max": 45,
+        "min": 35,
+        "raw": 35
+      },
+      "baseEarthDamage": {
+        "max": 145,
+        "min": 55,
+        "raw": 55
+      }
+    },
+    "dropRestriction": "normal",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "189",
+        "id": "minecraft:iron_horse_armor",
+        "name": "bow.earth3"
+      }
+    },
+    "identifications": {
+      "raw2ndSpellCost": {
+        "max": -13,
+        "min": -3,
+        "raw": -10
+      },
+      "rawDexterity": -40,
+      "rawEarthMainAttackDamage": {
+        "max": 215,
+        "min": 50,
+        "raw": 165
+      },
+      "rawHealth": {
+        "max": -1225,
+        "min": -2275,
+        "raw": -1750
+      },
+      "sprintRegen": {
+        "max": 33,
+        "min": 8,
+        "raw": 25
+      },
+      "thunderDamage": {
+        "max": -21,
+        "min": -39,
+        "raw": -30
+      },
+      "walkSpeed": {
+        "max": 26,
+        "min": 6,
+        "raw": 20
+      }
+    },
+    "internalName": "Renegade",
+    "powderSlots": 3,
+    "rarity": "legendary",
+    "requirements": {
+      "agility": 45,
+      "classRequirement": "archer",
+      "level": 103,
+      "strength": 60
+    },
+    "type": "weapon",
+    "weaponType": "bow"
+  },
   "Replica Hallowynn Mask": {
     "armourType": "helmet",
     "base": {
@@ -136014,23 +136664,23 @@
     "weaponType": "relik"
   },
   "Sacrilege": {
-    "attackSpeed": "very_fast",
-    "averageDps": 310,
+    "attackSpeed": "normal",
+    "averageDps": 330,
     "base": {
       "baseDamage": {
-        "max": 35,
+        "max": 55,
         "min": 5,
         "raw": 5
       },
       "baseEarthDamage": {
-        "max": 45,
-        "min": 15,
-        "raw": 15
+        "max": 75,
+        "min": 25,
+        "raw": 25
       },
       "baseThunderDamage": {
-        "max": 85,
-        "min": 15,
-        "raw": 15
+        "max": 135,
+        "min": 25,
+        "raw": 25
       }
     },
     "dropRestriction": "normal",
@@ -136043,15 +136693,20 @@
       }
     },
     "identifications": {
+      "lifeSteal": {
+        "max": 566,
+        "min": 131,
+        "raw": 435
+      },
       "manaSteal": {
         "max": -14,
         "min": -26,
         "raw": -20
       },
       "rawAttackSpeed": {
-        "max": 3,
+        "max": 5,
         "min": 1,
-        "raw": 2
+        "raw": 4
       },
       "rawIntelligence": -40,
       "rawMainAttackDamage": {
@@ -138907,6 +139562,82 @@
     },
     "type": "accessory"
   },
+  "Sclera Swathe": {
+    "attackSpeed": "very_slow",
+    "averageDps": 365,
+    "base": {
+      "baseAirDamage": {
+        "max": 140,
+        "min": 80,
+        "raw": 80
+      },
+      "baseEarthDamage": {
+        "max": 110,
+        "min": 110,
+        "raw": 110
+      },
+      "baseFireDamage": {
+        "max": 120,
+        "min": 100,
+        "raw": 100
+      },
+      "baseWaterDamage": {
+        "max": 130,
+        "min": 90,
+        "raw": 90
+      }
+    },
+    "dropRestriction": "never",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "318",
+        "id": "minecraft:iron_horse_armor",
+        "name": "wand.earth1"
+      }
+    },
+    "identifications": {
+      "healingEfficiency": {
+        "max": 16,
+        "min": 4,
+        "raw": 12
+      },
+      "healthRegen": {
+        "max": 65,
+        "min": 15,
+        "raw": 50
+      },
+      "lifeSteal": {
+        "max": -630,
+        "min": -1170,
+        "raw": -900
+      },
+      "mainAttackDamage": {
+        "max": 78,
+        "min": 18,
+        "raw": 60
+      },
+      "rawDexterity": -70,
+      "sprintRegen": {
+        "max": 30,
+        "min": 7,
+        "raw": 23
+      }
+    },
+    "internalName": "Sclera Swathe",
+    "powderSlots": 4,
+    "rarity": "rare",
+    "requirements": {
+      "agility": 40,
+      "classRequirement": "mage",
+      "defence": 40,
+      "intelligence": 40,
+      "level": 104,
+      "strength": 40
+    },
+    "type": "weapon",
+    "weaponType": "wand"
+  },
   "Scorch Breath": {
     "attackSpeed": "very_fast",
     "averageDps": 133,
@@ -140384,19 +141115,6 @@
       "level": 1
     },
     "type": "accessory"
-  },
-  "Seekers Aid": {
-    "armourColor": "rgb(153,153,153)",
-    "armourMaterial": "leather",
-    "armourType": "helmet",
-    "dropRestriction": "never",
-    "internalName": "Seekers Aid",
-    "lore": "I found them!",
-    "rarity": "common",
-    "requirements": {
-      "level": 1
-    },
-    "type": "armour"
   },
   "Seipodon": {
     "armourMaterial": "diamond",
@@ -142387,20 +143105,20 @@
   },
   "Shattered Horizon": {
     "attackSpeed": "very_fast",
-    "averageDps": 512,
+    "averageDps": 465,
     "base": {
       "baseAirDamage": {
         "max": 60,
-        "min": 40,
-        "raw": 40
+        "min": 30,
+        "raw": 30
       },
       "baseEarthDamage": {
-        "max": 80,
+        "max": 70,
         "min": 50,
         "raw": 50
       },
       "baseWaterDamage": {
-        "max": 60,
+        "max": 50,
         "min": 40,
         "raw": 40
       }
@@ -155379,6 +156097,68 @@
     "type": "weapon",
     "weaponType": "wand"
   },
+  "Static Wisdom": {
+    "attackSpeed": "super_fast",
+    "averageDps": 387,
+    "base": {
+      "baseDamage": {
+        "max": 55,
+        "min": 5,
+        "raw": 5
+      },
+      "baseThunderDamage": {
+        "max": 105,
+        "min": 15,
+        "raw": 15
+      }
+    },
+    "dropRestriction": "normal",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "259",
+        "id": "minecraft:iron_horse_armor",
+        "name": "dagger.thunder3"
+      }
+    },
+    "identifications": {
+      "elementalDefence": {
+        "max": -42,
+        "min": -78,
+        "raw": -60
+      },
+      "knockback": {
+        "max": -21,
+        "min": -39,
+        "raw": -30
+      },
+      "raw3rdSpellCost": {
+        "max": -13,
+        "min": -3,
+        "raw": -10
+      },
+      "sprintRegen": {
+        "max": 33,
+        "min": 8,
+        "raw": 25
+      },
+      "thunderDamage": {
+        "max": 52,
+        "min": 12,
+        "raw": 40
+      }
+    },
+    "internalName": "Static Wisdom",
+    "powderSlots": 3,
+    "rarity": "unique",
+    "requirements": {
+      "classRequirement": "assassin",
+      "dexterity": 60,
+      "level": 104
+    },
+    "type": "weapon",
+    "weaponType": "dagger"
+  },
   "Static-Charged Leggings": {
     "armourMaterial": "diamond",
     "armourType": "leggings",
@@ -158630,6 +159410,54 @@
     },
     "type": "armour"
   },
+  "Substratum": {
+    "armourMaterial": "diamond",
+    "armourType": "leggings",
+    "base": {
+      "baseAirDefence": -90,
+      "baseEarthDefence": 125,
+      "baseFireDefence": 50,
+      "baseHealth": 2750,
+      "baseThunderDefence": -90
+    },
+    "dropRestriction": "never",
+    "identifications": {
+      "healthRegen": {
+        "max": 33,
+        "min": 8,
+        "raw": 25
+      },
+      "knockback": {
+        "max": 26,
+        "min": 6,
+        "raw": 20
+      },
+      "mainAttackDamage": {
+        "max": 26,
+        "min": 6,
+        "raw": 20
+      },
+      "raw2ndSpellCost": {
+        "max": 2,
+        "min": 4,
+        "raw": 3
+      },
+      "rawDefence": 9,
+      "rawEarthDamage": {
+        "max": 215,
+        "min": 50,
+        "raw": 165
+      }
+    },
+    "internalName": "Substratum",
+    "powderSlots": 3,
+    "rarity": "rare",
+    "requirements": {
+      "level": 83,
+      "strength": 60
+    },
+    "type": "armour"
+  },
   "Subsumere": {
     "attackSpeed": "slow",
     "averageDps": 221,
@@ -160010,6 +160838,80 @@
     },
     "restrictions": "untradable",
     "type": "armour"
+  },
+  "Surveillance": {
+    "attackSpeed": "normal",
+    "averageDps": 690,
+    "base": {
+      "baseAirDamage": {
+        "max": 105,
+        "min": 75,
+        "raw": 75
+      },
+      "baseDamage": {
+        "max": 75,
+        "min": 55,
+        "raw": 55
+      },
+      "baseFireDamage": {
+        "max": 95,
+        "min": 85,
+        "raw": 85
+      },
+      "baseThunderDamage": {
+        "max": 115,
+        "min": 65,
+        "raw": 65
+      }
+    },
+    "dropRestriction": "normal",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "186",
+        "id": "minecraft:iron_horse_armor",
+        "name": "bow.air3"
+      }
+    },
+    "identifications": {
+      "3rdSpellCost": {
+        "max": -19,
+        "min": -4,
+        "raw": -15
+      },
+      "4thSpellCost": {
+        "max": -26,
+        "min": -6,
+        "raw": -20
+      },
+      "manaRegen": {
+        "max": -14,
+        "min": -26,
+        "raw": -20
+      },
+      "rawDamage": {
+        "max": 260,
+        "min": 60,
+        "raw": 200
+      },
+      "walkSpeed": {
+        "max": -17,
+        "min": -32,
+        "raw": -25
+      }
+    },
+    "internalName": "Surveillance",
+    "powderSlots": 3,
+    "rarity": "legendary",
+    "requirements": {
+      "agility": 45,
+      "classRequirement": "archer",
+      "defence": 45,
+      "dexterity": 45,
+      "level": 102
+    },
+    "type": "weapon",
+    "weaponType": "bow"
   },
   "Svalinn": {
     "armourMaterial": "iron",
@@ -162648,6 +163550,82 @@
     },
     "type": "weapon",
     "weaponType": "spear"
+  },
+  "Tendril Talon": {
+    "attackSpeed": "super_fast",
+    "averageDps": 344,
+    "base": {
+      "baseAirDamage": {
+        "max": 30,
+        "min": 10,
+        "raw": 10
+      },
+      "baseEarthDamage": {
+        "max": 20,
+        "min": 20,
+        "raw": 20
+      },
+      "baseFireDamage": {
+        "max": 25,
+        "min": 15,
+        "raw": 15
+      },
+      "baseThunderDamage": {
+        "max": 40,
+        "min": 0,
+        "raw": 0
+      }
+    },
+    "dropRestriction": "never",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "259",
+        "id": "minecraft:iron_horse_armor",
+        "name": "dagger.thunder3"
+      }
+    },
+    "identifications": {
+      "elementalDefence": {
+        "max": 40,
+        "min": 9,
+        "raw": 31
+      },
+      "healthRegen": {
+        "max": 104,
+        "min": 24,
+        "raw": 80
+      },
+      "manaRegen": {
+        "max": -11,
+        "min": -21,
+        "raw": -16
+      },
+      "rawDamage": {
+        "max": 300,
+        "min": 69,
+        "raw": 231
+      },
+      "rawIntelligence": -70,
+      "walkSpeed": {
+        "max": 25,
+        "min": 6,
+        "raw": 19
+      }
+    },
+    "internalName": "Tendril Talon",
+    "powderSlots": 4,
+    "rarity": "rare",
+    "requirements": {
+      "agility": 40,
+      "classRequirement": "assassin",
+      "defence": 40,
+      "dexterity": 40,
+      "level": 104,
+      "strength": 40
+    },
+    "type": "weapon",
+    "weaponType": "dagger"
   },
   "Tenuto": {
     "accessoryType": "necklace",
@@ -170079,6 +171057,59 @@
     "restrictions": "untradable",
     "type": "accessory"
   },
+  "Timeworn Tassets": {
+    "armourMaterial": "diamond",
+    "armourType": "leggings",
+    "base": {
+      "baseAirDefence": 200,
+      "baseEarthDefence": 100,
+      "baseHealth": 3400,
+      "baseThunderDefence": -175
+    },
+    "dropRestriction": "never",
+    "identifications": {
+      "knockback": {
+        "max": 65,
+        "min": 15,
+        "raw": 50
+      },
+      "lifeSteal": {
+        "max": 325,
+        "min": 75,
+        "raw": 250
+      },
+      "rawAirMainAttackDamage": {
+        "max": 2600,
+        "min": 600,
+        "raw": 2000
+      },
+      "rawAttackSpeed": {
+        "max": -35,
+        "min": -65,
+        "raw": -50
+      },
+      "rawStrength": 15,
+      "rawThunderMainAttackDamage": {
+        "max": -700,
+        "min": -1300,
+        "raw": -1000
+      },
+      "sprint": {
+        "max": 27,
+        "min": 6,
+        "raw": 21
+      }
+    },
+    "internalName": "Timeworn Tassets",
+    "powderSlots": 2,
+    "rarity": "legendary",
+    "requirements": {
+      "agility": 60,
+      "level": 100,
+      "strength": 45
+    },
+    "type": "armour"
+  },
   "Timthriall": {
     "attackSpeed": "normal",
     "averageDps": 628,
@@ -174408,6 +175439,66 @@
     },
     "type": "armour"
   },
+  "Unshackled Spirit": {
+    "armourMaterial": "diamond",
+    "armourType": "chestplate",
+    "base": {
+      "baseAirDefence": 170,
+      "baseEarthDefence": 170,
+      "baseFireDefence": 120,
+      "baseHealth": 2525,
+      "baseThunderDefence": 120,
+      "baseWaterDefence": -200
+    },
+    "dropMeta": {
+      "coordinates": [
+        -1746,
+        65,
+        -3069
+      ],
+      "name": "Aerie of the Recluse",
+      "type": "altar"
+    },
+    "dropRestriction": "never",
+    "identifications": {
+      "3rdSpellCost": {
+        "max": -23,
+        "min": -5,
+        "raw": -18
+      },
+      "damage": {
+        "max": -17,
+        "min": -32,
+        "raw": -25
+      },
+      "healthRegen": {
+        "max": 65,
+        "min": 15,
+        "raw": 50
+      },
+      "manaSteal": {
+        "max": 13,
+        "min": 3,
+        "raw": 10
+      },
+      "rawIntelligence": -25,
+      "walkSpeed": {
+        "max": 20,
+        "min": 5,
+        "raw": 15
+      }
+    },
+    "internalName": "Unshackled Spirit",
+    "rarity": "rare",
+    "requirements": {
+      "agility": 45,
+      "defence": 35,
+      "dexterity": 35,
+      "level": 102,
+      "strength": 45
+    },
+    "type": "armour"
+  },
   "Unsheathed Glaive": {
     "attackSpeed": "normal",
     "averageDps": 340,
@@ -176689,6 +177780,87 @@
     "restrictions": "untradable",
     "type": "accessory"
   },
+  "Vapor Fang": {
+    "attackSpeed": "fast",
+    "averageDps": 525,
+    "base": {
+      "baseAirDamage": {
+        "max": 100,
+        "min": 40,
+        "raw": 40
+      },
+      "baseFireDamage": {
+        "max": 70,
+        "min": 70,
+        "raw": 70
+      },
+      "baseWaterDamage": {
+        "max": 85,
+        "min": 55,
+        "raw": 55
+      }
+    },
+    "dropRestriction": "never",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "256",
+        "id": "minecraft:iron_horse_armor",
+        "name": "dagger.fire3"
+      }
+    },
+    "identifications": {
+      "4thSpellCost": {
+        "max": -26,
+        "min": -6,
+        "raw": -20
+      },
+      "damage": {
+        "max": -10,
+        "min": -18,
+        "raw": -14
+      },
+      "healthRegenRaw": {
+        "max": 280,
+        "min": 65,
+        "raw": 215
+      },
+      "rawAgility": 8,
+      "rawDefence": 8,
+      "rawHealth": {
+        "max": 2300,
+        "min": 531,
+        "raw": 1769
+      },
+      "slowEnemy": {
+        "max": 12,
+        "min": 3,
+        "raw": 9
+      },
+      "sprint": {
+        "max": 46,
+        "min": 11,
+        "raw": 35
+      },
+      "thunderDefence": {
+        "max": -28,
+        "min": -52,
+        "raw": -40
+      }
+    },
+    "internalName": "Vapor Fang",
+    "powderSlots": 3,
+    "rarity": "legendary",
+    "requirements": {
+      "agility": 50,
+      "classRequirement": "assassin",
+      "defence": 50,
+      "intelligence": 45,
+      "level": 95
+    },
+    "type": "weapon",
+    "weaponType": "dagger"
+  },
   "Vartija": {
     "attackSpeed": "super_fast",
     "averageDps": 82,
@@ -178335,6 +179507,80 @@
       "strength": 70
     },
     "type": "armour"
+  },
+  "Viridian": {
+    "attackSpeed": "slow",
+    "averageDps": 675,
+    "base": {
+      "baseDamage": {
+        "max": 150,
+        "min": 30,
+        "raw": 30
+      },
+      "baseEarthDamage": {
+        "max": 160,
+        "min": 80,
+        "raw": 80
+      },
+      "baseThunderDamage": {
+        "max": 200,
+        "min": 40,
+        "raw": 40
+      },
+      "baseWaterDamage": {
+        "max": 180,
+        "min": 60,
+        "raw": 60
+      }
+    },
+    "dropRestriction": "normal",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "253",
+        "id": "minecraft:iron_horse_armor",
+        "name": "dagger.earth3"
+      }
+    },
+    "identifications": {
+      "1stSpellCost": {
+        "max": 14,
+        "min": 26,
+        "raw": 20
+      },
+      "2ndSpellCost": {
+        "max": 14,
+        "min": 26,
+        "raw": 20
+      },
+      "elementalDamage": {
+        "max": 39,
+        "min": 9,
+        "raw": 30
+      },
+      "healthRegenRaw": {
+        "max": -161,
+        "min": -299,
+        "raw": -230
+      },
+      "poison": {
+        "max": 11050,
+        "min": 2550,
+        "raw": 8500
+      }
+    },
+    "internalName": "Viridian",
+    "powderSlots": 3,
+    "rarity": "legendary",
+    "requirements": {
+      "classRequirement": "assassin",
+      "dexterity": 45,
+      "intelligence": 45,
+      "level": 102,
+      "strength": 45
+    },
+    "type": "weapon",
+    "weaponType": "dagger"
   },
   "Virtue": {
     "attackSpeed": "very_slow",
@@ -181087,6 +182333,16 @@
         "raw": 55
       }
     },
+    "dropMeta": {
+      "coordinates": [
+        -862,
+        22,
+        -310,
+        120
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
+    },
     "dropRestriction": "never",
     "icon": {
       "format": "attribute",
@@ -181129,12 +182385,12 @@
         "raw": 15
       }
     },
-    "internalName": "Water Relic Dagger",
+    "internalName": "Water Relic Daggers",
     "powderSlots": 3,
     "rarity": "rare",
     "requirements": {
       "classRequirement": "assassin",
-      "intelligence": 30,
+      "intelligence": 25,
       "level": 65
     },
     "type": "weapon",
@@ -186313,23 +187569,6 @@
       "level": 92
     },
     "type": "accessory"
-  },
-  "Yellow Content Cap of Fame": {
-    "armourColor": "rgb(229,217,45)",
-    "armourMaterial": "leather",
-    "armourType": "helmet",
-    "base": {
-      "baseHealth": 5
-    },
-    "dropRestriction": "never",
-    "internalName": "Yellow Content Cap of Fame",
-    "lore": "I helped!",
-    "rarity": "common",
-    "requirements": {
-      "level": 1
-    },
-    "restrictions": "untradable",
-    "type": "armour"
   },
   "Yellow Ornament": {
     "accessoryType": "ring",
