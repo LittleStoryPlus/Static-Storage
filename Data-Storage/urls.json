@@ -1,6 +1,6 @@
 [
   {
-    "version": 12
+    "version": 13
   },
   {
     "id": "apiAthenaAuthPublicKey",
@@ -115,7 +115,7 @@
   },
   {
     "id": "dataStaticGear",
-    "md5": "c832100b9935da52dd0f9420a7ee3d06",
+    "md5": "6a6093bba4b332038cab902500895e32",
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/gear.json"
   },
   {
@@ -125,7 +125,7 @@
   },
   {
     "id": "dataStaticIdentificationKeys",
-    "md5": "57a84e3e27acfa9a2333abcde999c58c",
+    "md5": "745366b87899dfa650e7a9a2b0d5f4d3",
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/id_keys.json"
   },
   {
@@ -135,7 +135,7 @@
   },
   {
     "id": "dataStaticIngredients",
-    "md5": "3d4db072f31bfd422b1d54ca9195b564",
+    "md5": "6120a9902397625f15ea7ee41b63f284",
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/ingredients.json"
   },
   {
@@ -155,8 +155,13 @@
   },
   {
     "id": "dataStaticLootrunTasksNamed",
-    "md5": "c147221c93bfe0771cf0cd81c4d929c1",
+    "md5": "2e0080ebd9e8d06a1635bb2dedb652fe",
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Data-Storage/lootrun_tasks_named.json"
+  },
+  {
+    "id": "dataStaticLootrunTasksNamedV2",
+    "md5": "c8a56fdbc7a0fd65750ed6c343e0e0fd",
+    "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Data-Storage/lootrun_tasks_named_v2.json"
   },
   {
     "id": "dataStaticMajorIds",
@@ -165,7 +170,7 @@
   },
   {
     "id": "dataStaticMaps",
-    "md5": "0165174c3c0b042468ecc65d5c42b5d5",
+    "md5": "868e6cbc3ac5b6e549b2b98f845e3318",
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/maps.json"
   },
   {
@@ -215,12 +220,12 @@
   },
   {
     "id": "dataStaticTomes",
-    "md5": "89591fc22600d80736aab3f69244c436",
+    "md5": "dae81e18e09cf2904459d23bec819287",
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/tomes.json"
   },
   {
     "id": "dataStaticTools",
-    "md5": "ecb712e680d77ea7129d1dd01eaeef8f",
+    "md5": "cc54a8f472e9220838ec78e8a29f08a6",
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/tools.json"
   },
   {
@@ -259,6 +264,13 @@
     "encoding": "wiki",
     "id": "linkWikiLookup",
     "url": "https://wynncraft.wiki.gg/wiki/%{title}"
+  },
+  {
+    "arguments": [
+      "itemname"
+    ],
+    "id": "linkWynncraftItemLookup",
+    "url": "https://wynncraft.com/item/%{itemname}"
   },
   {
     "arguments": [

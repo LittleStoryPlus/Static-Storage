@@ -15,7 +15,7 @@
         "y": 77,
         "z": -3172
       },
-      "name": "Feral Avos",
+      "name": "Fanatic Nest",
       "taskType": "slay"
     },
     {
@@ -42,7 +42,7 @@
         "y": 60,
         "z": -2704
       },
-      "name": "Bandit Hideout",
+      "name": "Brigands' Hideaway",
       "taskType": "slay"
     },
     {
@@ -78,7 +78,7 @@
         "y": 63,
         "z": -2452
       },
-      "name": "Infested Underpass",
+      "name": "Relos Underpass",
       "taskType": "slay"
     },
     {
@@ -105,7 +105,7 @@
         "y": 36,
         "z": -3438
       },
-      "name": "Treasure Grabbers",
+      "name": "Treasure Trove",
       "taskType": "defend"
     },
     {
@@ -123,7 +123,7 @@
         "y": 75,
         "z": -2206
       },
-      "name": "War Machine",
+      "name": "Communication Monopole",
       "taskType": "destroy"
     },
     {
@@ -142,7 +142,7 @@
         "z": -3161
       },
       "name": "Cable Coolers",
-      "taskType": "slay"
+      "taskType": "target"
     },
     {
       "location": {
@@ -151,7 +151,7 @@
         "z": -2438
       },
       "name": "Robot Pirates",
-      "taskType": "slay"
+      "taskType": "target"
     },
     {
       "location": {
@@ -178,19 +178,10 @@
         "z": -2252
       },
       "name": "Fort Corkia",
-      "taskType": "slay"
+      "taskType": "target"
     }
   ],
   "moltenHeightsHike": [
-    {
-      "location": {
-        "x": 988,
-        "y": 63,
-        "z": -4978
-      },
-      "name": "Forgotten Excavation",
-      "taskType": "loot"
-    },
     {
       "location": {
         "x": 1057,
@@ -198,7 +189,7 @@
         "z": -5297
       },
       "name": "Entombed Elementals",
-      "taskType": "slay"
+      "taskType": "target"
     },
     {
       "location": {
@@ -315,7 +306,7 @@
         "z": -5388
       },
       "name": "Frigid Hollow",
-      "taskType": "slay"
+      "taskType": "target"
     },
     {
       "location": {
@@ -425,7 +416,7 @@
         "z": -1013
       },
       "name": "Sludge Locus",
-      "taskType": "slay"
+      "taskType": "target"
     },
     {
       "location": {
@@ -506,7 +497,7 @@
         "z": -992
       },
       "name": "Graveyard of the Thousand",
-      "taskType": "slay"
+      "taskType": "target"
     },
     {
       "location": {
@@ -515,7 +506,7 @@
         "z": -1092
       },
       "name": "False Respite",
-      "taskType": "slay"
+      "taskType": "target"
     },
     {
       "location": {
@@ -564,6 +555,15 @@
     }
   ],
   "skyIslandsExploration": [
+    {
+      "location": {
+        "x": 988,
+        "y": 63,
+        "z": -4978
+      },
+      "name": "Forgotten Excavation",
+      "taskType": "loot"
+    },
     {
       "location": {
         "x": 731,
@@ -625,7 +625,7 @@
         "z": -4454
       },
       "name": "Phantasmic Field",
-      "taskType": "slay"
+      "taskType": "target"
     },
     {
       "location": {
@@ -679,7 +679,7 @@
         "z": -4930
       },
       "name": "Astralaus' Comet",
-      "taskType": "slay"
+      "taskType": "target"
     },
     {
       "location": {
@@ -751,7 +751,7 @@
         "z": -4579
       },
       "name": "Colossus Islet",
-      "taskType": "slay"
+      "taskType": "target"
     },
     {
       "location": {
@@ -770,7 +770,7 @@
         "y": 136,
         "z": -4686
       },
-      "name": "Canyon Fortress",
+      "name": "Rogue Intel Core",
       "taskType": "destroy"
     },
     {
@@ -779,7 +779,7 @@
         "y": 93,
         "z": -4980
       },
-      "name": "Wizard Tower",
+      "name": "Sorcerer's Rave",
       "taskType": "slay"
     },
     {
@@ -806,7 +806,7 @@
         "y": 81,
         "z": -4515
       },
-      "name": "The Pit",
+      "name": "The Armory",
       "taskType": "slay"
     },
     {
@@ -824,7 +824,7 @@
         "y": 28,
         "z": -4896
       },
-      "name": "Farmland",
+      "name": "Farmer's Harvest",
       "taskType": "defend"
     },
     {
@@ -833,7 +833,7 @@
         "y": 72,
         "z": -4391
       },
-      "name": "Mountain Edge",
+      "name": "Mycelial Alcove",
       "taskType": "slay"
     },
     {
@@ -842,7 +842,7 @@
         "y": 28,
         "z": -4995
       },
-      "name": "Krolton's Cave",
+      "name": "Absorbing Slime",
       "taskType": "destroy"
     },
     {
@@ -851,7 +851,7 @@
         "y": 110,
         "z": -4801
       },
-      "name": "Bantisu Temple",
+      "name": "Elemental Spring",
       "taskType": "defend"
     },
     {
@@ -860,8 +860,8 @@
         "y": 50,
         "z": -4448
       },
-      "name": "The Colossus",
-      "taskType": "slay"
+      "name": "Colossal Synapse",
+      "taskType": "target"
     },
     {
       "location": {
@@ -869,7 +869,7 @@
         "y": 24,
         "z": -4932
       },
-      "name": "Air Temple Cavern",
+      "name": "Troll Den",
       "taskType": "slay"
     },
     {
