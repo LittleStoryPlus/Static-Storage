@@ -11347,6 +11347,86 @@
     "tier": 0,
     "type": "ingredient"
   },
+  "Broken Amulet": {
+    "consumableOnlyIDs": {
+      "charges": 0,
+      "duration": 0
+    },
+    "droppedBy": [
+      {
+        "coords": [
+          -730,
+          72,
+          -1052,
+          10
+        ],
+        "name": "Magic Trainer"
+      },
+      {
+        "coords": [
+          -730,
+          72,
+          -1052,
+          10
+        ],
+        "name": "Power Trainer"
+      },
+      {
+        "coords": [
+          -730,
+          72,
+          -1052,
+          10
+        ],
+        "name": "Acrobatics Trainer"
+      },
+      {
+        "coords": [
+          -730,
+          72,
+          -1052,
+          10
+        ],
+        "name": "Magic Trainer"
+      }
+    ],
+    "icon": {
+      "format": "legacy",
+      "value": "371:0"
+    },
+    "identifications": {
+      "healthRegen": {
+        "max": 1,
+        "min": 1,
+        "raw": 1
+      }
+    },
+    "ingredientPositionModifiers": {
+      "above": 0,
+      "left": 0,
+      "notTouching": 0,
+      "right": 0,
+      "touching": 0,
+      "under": 0
+    },
+    "internalName": "Broken Amulet",
+    "itemOnlyIDs": {
+      "agilityRequirement": 0,
+      "defenceRequirement": 0,
+      "dexterityRequirement": 0,
+      "durabilityModifier": -40000,
+      "intelligenceRequirement": 0,
+      "strengthRequirement": 0
+    },
+    "requirements": {
+      "level": 70,
+      "skills": [
+        "jeweling"
+      ]
+    },
+    "tier": 0,
+    "type": "ingredient"
+  },
   "Broken Antic Bead": {
     "consumableOnlyIDs": {
       "charges": 0,
@@ -39330,12 +39410,6 @@
             10
           ],
           [
-            452,
-            35,
-            -3768,
-            10
-          ],
-          [
             127,
             40,
             -3571,
@@ -39345,12 +39419,6 @@
             -293,
             42,
             -3275,
-            10
-          ],
-          [
-            453,
-            36,
-            -3768,
             10
           ]
         ],
@@ -69738,8 +69806,165 @@
     },
     "droppedBy": [
       {
-        "coords": null,
-        "name": "Ingredient Dummy"
+        "coords": [
+          [
+            208,
+            101,
+            -4403,
+            10
+          ],
+          [
+            200,
+            95,
+            -4381,
+            15
+          ],
+          [
+            213,
+            91,
+            -4343,
+            20
+          ],
+          [
+            161,
+            79,
+            -4354,
+            20
+          ],
+          [
+            115,
+            75,
+            -4362,
+            10
+          ],
+          [
+            94,
+            79,
+            -4345,
+            15
+          ],
+          [
+            62,
+            86,
+            -4349,
+            15
+          ],
+          [
+            40,
+            87,
+            -4367,
+            10
+          ],
+          [
+            13,
+            86,
+            -4359,
+            10
+          ],
+          [
+            -28,
+            92,
+            -4342,
+            15
+          ],
+          [
+            -80,
+            98,
+            -4337,
+            15
+          ],
+          [
+            -88,
+            111,
+            -4387,
+            15
+          ],
+          [
+            169,
+            74,
+            -4410,
+            10
+          ],
+          [
+            140,
+            56,
+            -4392,
+            15
+          ],
+          [
+            -47,
+            75,
+            -4381,
+            10
+          ],
+          [
+            0,
+            64,
+            -4414,
+            10
+          ],
+          [
+            -10,
+            43,
+            -4378,
+            10
+          ],
+          [
+            10,
+            43,
+            -4391,
+            10
+          ],
+          [
+            65,
+            44,
+            -4425,
+            30
+          ],
+          [
+            57,
+            58,
+            -4387,
+            20
+          ],
+          [
+            94,
+            48,
+            -4385,
+            20
+          ],
+          [
+            126,
+            43,
+            -4419,
+            20
+          ],
+          [
+            64,
+            43,
+            -4502,
+            30
+          ],
+          [
+            103,
+            44,
+            -4525,
+            15
+          ],
+          [
+            56,
+            44,
+            -4547,
+            15
+          ],
+          [
+            81,
+            43,
+            -4565,
+            10
+          ]
+        ],
+        "name": "Giant Panda King"
       }
     ],
     "icon": {
@@ -69786,7 +70011,7 @@
       "touching": 0,
       "under": 0
     },
-    "internalName": "Panda King's Crown",
+    "internalName": "Panda King’s Crown",
     "itemOnlyIDs": {
       "agilityRequirement": 0,
       "defenceRequirement": 0,
@@ -87617,12 +87842,6 @@
             10
           ],
           [
-            452,
-            35,
-            -3768,
-            10
-          ],
-          [
             127,
             40,
             -3571,
@@ -87632,12 +87851,6 @@
             -293,
             42,
             -3275,
-            10
-          ],
-          [
-            453,
-            36,
-            -3768,
             10
           ]
         ],
@@ -87725,12 +87938,6 @@
             10
           ],
           [
-            452,
-            35,
-            -3768,
-            10
-          ],
-          [
             127,
             40,
             -3571,
@@ -87740,12 +87947,6 @@
             -293,
             42,
             -3275,
-            10
-          ],
-          [
-            453,
-            36,
-            -3768,
             10
           ]
         ],
@@ -111013,10 +111214,10 @@
     "droppedBy": [
       {
         "coords": [
-          1198,
-          132,
-          -1115,
-          35
+          1382,
+          142,
+          -1008,
+          30
         ],
         "name": "Vortexian Voidgap"
       }
@@ -111052,12 +111253,12 @@
     },
     "internalName": "Vortexian Event Horizon",
     "itemOnlyIDs": {
-      "agilityRequirement": 40,
-      "defenceRequirement": 40,
-      "dexterityRequirement": 40,
-      "durabilityModifier": -180000,
-      "intelligenceRequirement": 40,
-      "strengthRequirement": 40
+      "agilityRequirement": 14,
+      "defenceRequirement": 14,
+      "dexterityRequirement": 14,
+      "durabilityModifier": -160000,
+      "intelligenceRequirement": 14,
+      "strengthRequirement": 14
     },
     "requirements": {
       "level": 105,
@@ -111448,12 +111649,6 @@
             10
           ],
           [
-            452,
-            35,
-            -3768,
-            10
-          ],
-          [
             127,
             40,
             -3571,
@@ -111463,12 +111658,6 @@
             -293,
             42,
             -3275,
-            10
-          ],
-          [
-            453,
-            36,
-            -3768,
             10
           ]
         ],
